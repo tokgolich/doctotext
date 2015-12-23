@@ -1,0 +1,152 @@
+/*! \mainpage SILVERCODERS DocToText
+ *
+ *	\section intro Introduction
+ *
+ *	DocToText - Converts DOC, XLS, XLSB, PPT, RTF, ODF (ODT, ODS, ODP),
+ *              OOXML (DOCX, XLSX, PPTX), iWork (PAGES, NUMBERS, KEYNOTE),
+ *              ODFXML (FODP, FODS, FODT), PDF, EML and HTML documents to plain text.
+ *              Extracts metadata and annotations.
+ *
+ *	\section usage Usage
+ *
+ *	\subsection GCC	How to use distributed, compiled binaries with GCC
+ *
+ *	Binaries have been compiled using GCC, so usage will be very simple here.
+ *	We distribute binaries within one single catalog, where we can find all necessary files
+ *	(include files -> .h, library files -> .dll, .so, .dylib).
+ *	So, all we have to do is to modify few options: LDFLAGS (-L/path/to/doctotext)
+ *	and CXXFLAGS (-I/path/to/doctotext). Also, do not forget to specify LD_LIBRARY_PATH.
+ *	It must also contain path to doctotext. If we forget about this, we may get undefined references.
+ *	Finally, we have to add one more option to the linker: "-ldoctotext". Now we can create example file, main.cpp
+ *
+ *	\code
+ *	#include "metadata.h"
+ *	#include "plain_text_extractor.h"
+ *
+ *	#include <iostream>
+ *	#include <string>
+ *
+ *	using namespace doctotext;
+ *
+ *	int main(int argc, char* argv[])
+ *	{
+ *		std::string file_name = "example.doc";
+ *		PlainTextExtractor extractor;
+ *		extractor.setVerboseLogging(true);
+ *		Metadata meta;
+ *		if (!extractor.extractMetadata(file_name, meta))
+ *			return 1;
+ *		std::cout << "Author: " << meta.author() << std::endl;
+ *		std::cout << "Last modified by: " << meta.lastModifiedBy() << std::endl;
+ *		std::string text;
+ *		if (!extractor.processFile(file_name, text))
+ *			return 1;
+ *		std::cout << text << std::endl;
+ *		return 0;
+ *	}
+ *	\endcode
+ *
+ *	The shortest way to build example program is to execute this command:
+ *	LD_LIBRARY_PATH=./doctotext g++ -o example main.cpp -I./doctotext/ -L./doctotext/ -ldoctotext
+ *	Of course, ./doctotext is a catalog with include and library files we distribute.
+ *	Create some .doc file named example.doc. Put within executable file.
+ *	Now we can run application:
+ *	LD_LIBRARY_PATH=./doctotext example
+ *	We should be able to see extracted text, author of the file, and a person who last has modified it.
+ *	There is one more thing to remember: There is "resources" catalog inside our "doctotext" dir. It is used
+ *	by PDF parser. We have to put this catalog in the same path where executable is, otherwise PDF
+ *	parser may fail sometimes.
+ *
+ *	\subsection CFront How to use the distributed, compiled binaries with CFront
+ *
+ *	You can build application using doctotext in similiar way as with GCC. But there is one important thing
+ *	you need to know. You must not use any function from doctotext which requires use of Standard Template Library (STL).
+ *	To be sure, do not use any object from std namespace. The reason is that we are using GCC and implementation
+ *	of STL differs too much from the one provided by CFront. But it is possible not to use STL, since we provide API
+ *	which do not use that library. Simple rewrite main.cpp from previous chapter in following way:
+ *
+ *	\code
+ *	#include "metadata.h"
+ *	#include "plain_text_extractor.h"
+ *
+ *	#include <iostream>
+ *
+ *	using namespace doctotext;
+ *
+ *	int main(int argc, char* argv[])
+ *	{
+ *		char file_name[] = "example.doc";
+ *		PlainTextExtractor extractor;
+ *		extractor.setVerboseLogging(true);
+ *		Metadata meta;
+ *		if (!extractor.extractMetadata(file_name, meta))
+ *			return 1;
+ *		std::cout << "Author: " << meta.author() << std::endl;
+ *		std::cout << "Last modified by: " << meta.lastModifiedBy() << std::endl;
+ *		char* text;
+ *		if (!extractor.processFile(file_name, text))
+ *			return 1;
+ *		std::cout << text << std::endl;
+ *		delete[] text;
+ *		return 0;
+ *	}
+ *	\endcode
+ *
+ *	Note that text and file_name are type of char*, not std::string. Now everything should be working as expected.
+ *
+ *	\subsection MSVC How to use the distributed, compiled binaries with MSVC
+ *
+ *	Binaries for windows have been compiled with MinGW, thus cannot be used in MSVC enviroment easily.
+ *	But it does not concern C API. On this level, MinGW libraries are compatible with MSVC. Knowing about that,
+ *	we provide additional file: doctotext_c_api.h. It contains, as indicated by the file name, list of
+ *	functions which use C-naming conventions. Thanks to this API, we can use binaries produced by MinGW
+ *	in other enviroments, like MSVC.
+ *	In order to compile sample program with MSVC, we need following files: libdoctotext.a and
+ *	doctotext_c_api.h. In compiler options, we have to add two paths: one include path (we have to specify directory
+ *	where doctotext_c_api.h lies) and one library path (where we need to provide path to libdoctotext.a).
+ *	Now, in linker options we have to add one file: "libdoctotext.a". That's all. We can create main.cpp file:
+ *
+ *	\code
+ *	#include "doctotext_c_api.h"
+ *	#include <conio.h>
+ *	#include <time.h>
+ *
+ *	int main()
+ *	{
+ *		//Create style and extractor params objects
+ *		DocToTextExtractorParams* params = doctotext_create_extractor_params();
+ *		DocToTextFormattingStyle* style = doctotext_create_formatting_style();
+ *		doctotext_formatting_style_set_url_style(style, DOCTOTEXT_URL_STYLE_EXTENDED);
+ *		doctotext_extractor_params_set_verbose_logging(params, 1);
+ *		doctotext_extractor_params_set_formatting_style(params, style);
+ *
+ *		//Extract text
+ *		DocToTextExtractedData* data = doctotext_process_file("example.doc", params, NULL);
+ *		//We should check if "data" is NULL!
+ *		printf("\n\ndata: %s\n", doctotext_extracted_data_get_text(data));
+ *
+ *		//Extract metadata
+ *		DocToTextMetadata* metadata = doctotext_extract_metadata("example.doc", params, NULL);
+ *		//We should check if "metadata" is NULL!
+ *		printf("author: %s\n", doctotext_metadata_author(metadata));
+ *		char date[64];
+ *		//Check creation date
+ *		strftime(date, 64, "%Y-%m-%d %H:%M:%S", doctotext_metadata_creation_date(metadata));
+ *		printf("creation date: %s\n", doctotext_variant_get_string(doctotext_metadata_get_field(metadata, "creation date")));
+ *
+ *		//We have to release those data:
+ *		doctotext_free_extracted_data(data);
+ *		doctotext_free_extractor_params(params);
+ *		doctotext_free_formatting_style(style);
+ *		getch();
+ *		return 0;
+ *	}
+ *	\endcode
+ *
+ *	Now we can compile our simple program.  Of course, do not forget to put all *.dll into directory
+ *	where executable program is. That's all, program should be working now, if we do not forget to provide
+ *	example.doc file of course.
+ *	There is one more thing to remember: Within binaries dir, there is "resources" catalog. It is used
+ *	by PDF parser. We have to put this catalog in the same path where executable is, otherwise PDF
+ *	parser may fail sometimes.
+ */

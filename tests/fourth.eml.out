@@ -1,0 +1,16 @@
+testy
+testowy
+testowość
+
+
+parsed attachments:
+
+name: 1.xlsx
+field: Content-Disposition, value: attachment; filename="1.xlsx"
+field: Content-Type, value: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet; name="1.xlsx"
+field: author, value: Adrian Smarzewski
+field: creation date, value: 2008-08-13 19:15:14
+field: last modification date, value: 2008-08-13 19:18:17
+field: last modified by, value: Adrian Smarzewski
+field: page count, value: 1
+field: word count, value: 2

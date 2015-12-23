@@ -1,0 +1,2094 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:smil="urn:oasis:names:tc:opendocument:xmlns:smil-compatible:1.0" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.presentation">
+ <office:meta><meta:creation-date>2012-05-26T17:29:45</meta:creation-date><dc:date>2012-05-26T17:33:11</dc:date><meta:editing-duration>P0D</meta:editing-duration><meta:editing-cycles>1</meta:editing-cycles><meta:generator>LibreOffice/3.5$Linux_X86_64 LibreOffice_project/350m1$Build-2</meta:generator><meta:document-statistic meta:object-count="37"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">5759</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">-415</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">28844</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">21892</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item config:name="GridIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="GridIsFront" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsSnapToGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToPageMargins" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToSnapLines" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToObjectFrame" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToObjectPoints" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsPlusHandlesAlwaysVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsFrameDragSingles" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="EliminatePolyPointLimitAngle" config:type="int">1500</config:config-item>
+     <config:config-item config:name="IsEliminatePolyPoints" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="VisibleLayers" config:type="base64Binary">//////////////////////////////////////////8=</config:config-item>
+     <config:config-item config:name="PrintableLayers" config:type="base64Binary">//////////////////////////////////////////8=</config:config-item>
+     <config:config-item config:name="LockedLayers" config:type="base64Binary"/>
+     <config:config-item config:name="NoAttribs" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="NoColors" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="RulerIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="PageKind" config:type="short">0</config:config-item>
+     <config:config-item config:name="SelectedPage" config:type="short">0</config:config-item>
+     <config:config-item config:name="IsLayerMode" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="IsDoubleClickTextEdit" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsClickChangeRotation" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="SlidesPerRow" config:type="short">4</config:config-item>
+     <config:config-item config:name="EditModeStandard" config:type="int">0</config:config-item>
+     <config:config-item config:name="EditModeNotes" config:type="int">0</config:config-item>
+     <config:config-item config:name="EditModeHandout" config:type="int">1</config:config-item>
+     <config:config-item config:name="VisibleAreaTop" config:type="int">-336</config:config-item>
+     <config:config-item config:name="VisibleAreaLeft" config:type="int">-3906</config:config-item>
+     <config:config-item config:name="VisibleAreaWidth" config:type="int">36161</config:config-item>
+     <config:config-item config:name="VisibleAreaHeight" config:type="int">21840</config:config-item>
+     <config:config-item config:name="GridCoarseWidth" config:type="int">2000</config:config-item>
+     <config:config-item config:name="GridCoarseHeight" config:type="int">2000</config:config-item>
+     <config:config-item config:name="GridFineWidth" config:type="int">200</config:config-item>
+     <config:config-item config:name="GridFineHeight" config:type="int">200</config:config-item>
+     <config:config-item config:name="GridSnapWidthXNumerator" config:type="int">200</config:config-item>
+     <config:config-item config:name="GridSnapWidthXDenominator" config:type="int">1</config:config-item>
+     <config:config-item config:name="GridSnapWidthYNumerator" config:type="int">200</config:config-item>
+     <config:config-item config:name="GridSnapWidthYDenominator" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsAngleSnapEnabled" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="SnapAngle" config:type="int">1500</config:config-item>
+     <config:config-item config:name="ZoomOnPage" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="BitmapTableURL" config:type="string">$(user)/config/standard.sob</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="ColorTableURL" config:type="string">$(user)/config/standard.soc</config:config-item>
+   <config:config-item config:name="DashTableURL" config:type="string">$(user)/config/standard.sod</config:config-item>
+   <config:config-item config:name="DefaultTabStop" config:type="int">1250</config:config-item>
+   <config:config-item-map-indexed config:name="ForbiddenCharacters">
+    <config:config-item-map-entry>
+     <config:config-item config:name="Language" config:type="string">pl</config:config-item>
+     <config:config-item config:name="Country" config:type="string">PL</config:config-item>
+     <config:config-item config:name="Variant" config:type="string"/>
+     <config:config-item config:name="BeginLine" config:type="string"/>
+     <config:config-item config:name="EndLine" config:type="string"/>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+   <config:config-item config:name="GradientTableURL" config:type="string">$(user)/config/standard.sog</config:config-item>
+   <config:config-item config:name="HandoutsHorizontal" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HatchTableURL" config:type="string">$(user)/config/standard.soh</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintBooklet" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintBookletBack" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintBookletFront" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintDate" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintDrawing" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintFitPage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintHandout" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintHiddenPages" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsPrintNotes" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintOutline" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintPageName" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintTilePage" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsPrintTime" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LineEndTableURL" config:type="string">$(user)/config/standard.soe</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PageNumberFormat" config:type="int">4</config:config-item>
+   <config:config-item config:name="ParagraphSummation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="PrintQuality" config:type="int">0</config:config-item>
+   <config:config-item config:name="PrinterIndependentLayout" config:type="string">low-resolution</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="SlidesPerHandout" config:type="short">6</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:styles>
+  <draw:fill-image draw:name="aqua1">
+   <office:binary-data>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
+   </office:binary-data>
+  </draw:fill-image>
+  <draw:marker draw:name="Arrow" svg:viewBox="0 0 20 30" svg:d="m10 0-10 30h20z"/>
+  <style:default-style style:family="graphic">
+   <style:graphic-properties svg:stroke-color="#808080" draw:fill-color="#cfe7f5" fo:wrap-option="no-wrap"/>
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:punctuation-wrap="simple" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+    <style:tab-stops/>
+   </style:paragraph-properties>
+   <style:text-properties style:use-window-font-color="true" fo:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="24pt" fo:language="pl" fo:country="PL" style:font-family-asian="Arial" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="24pt" style:language-asian="zh" style:country-asian="CN" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="24pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <style:style style:name="standard" style:family="graphic">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0cm" svg:stroke-color="#808080" draw:marker-start-width="0.2cm" draw:marker-start-center="false" draw:marker-end-width="0.2cm" draw:marker-end-center="false" draw:fill="solid" draw:fill-color="#cfe7f5" draw:textarea-horizontal-align="justify" fo:padding-top="0.125cm" fo:padding-bottom="0.125cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm" draw:shadow="hidden" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080">
+    <text:list-style style:name="standard">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="objectwitharrow" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-width="0.15cm" svg:stroke-color="#000000" draw:marker-start="Arrow" draw:marker-start-width="0.7cm" draw:marker-start-center="true" draw:marker-end-width="0.3cm"/>
+  </style:style>
+  <style:style style:name="objectwithshadow" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+  </style:style>
+  <style:style style:name="objectwithoutfill" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties svg:stroke-color="#000000" draw:fill="none"/>
+  </style:style>
+  <style:style style:name="text" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+  </style:style>
+  <style:style style:name="textbody" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:text-properties fo:font-size="16pt"/>
+  </style:style>
+  <style:style style:name="textbodyjustfied" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:text-align="justify"/>
+  </style:style>
+  <style:style style:name="textbodyindent" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0.6cm"/>
+  </style:style>
+  <style:style style:name="title" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:text-properties fo:font-size="44pt"/>
+  </style:style>
+  <style:style style:name="title1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="solid" draw:fill-color="#008080" draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="24pt"/>
+  </style:style>
+  <style:style style:name="title2" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties svg:stroke-width="0.05cm" draw:fill-color="#ffcc99" draw:shadow="visible" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0.2cm" fo:margin-top="0.1cm" fo:margin-bottom="0.1cm" fo:text-align="center" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="36pt"/>
+  </style:style>
+  <style:style style:name="headline" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="24pt"/>
+  </style:style>
+  <style:style style:name="headline1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="18pt" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="headline2" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-top="0.42cm" fo:margin-bottom="0.21cm"/>
+   <style:text-properties fo:font-size="14pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="measure" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="solid" svg:stroke-color="#000000" draw:marker-start="Arrow" draw:marker-start-width="0.2cm" draw:marker-end="Arrow" draw:marker-end-width="0.2cm" draw:fill="none" draw:show-unit="true"/>
+   <style:text-properties fo:font-size="12pt"/>
+  </style:style>
+  <style:style style:name="Łącze_20_internetowe" style:display-name="Łącze internetowe" style:family="graphic">
+   <style:paragraph-properties style:text-autospace="none"/>
+   <style:text-properties fo:color="#000080" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Indeks" style:family="graphic">
+   <style:paragraph-properties fo:text-align="start" style:text-autospace="ideograph-alpha"/>
+   <style:text-properties fo:color="#000000" fo:font-family="Times, &apos;Times New Roman&apos;" fo:font-size="12pt" fo:language="en" fo:country="US" style:font-family-asian="Tahoma" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="en" style:country-asian="US" style:font-family-complex="&apos;Lucida Sans Unicode&apos;" style:font-family-generic-complex="swiss" style:font-pitch-complex="variable"/>
+  </style:style>
+  <style:style style:name="Podpis" style:family="graphic">
+   <style:paragraph-properties fo:margin-top="0.374cm" fo:margin-bottom="0.374cm" fo:text-align="start" style:text-autospace="ideograph-alpha"/>
+   <style:text-properties fo:color="#000000" fo:font-family="Times, &apos;Times New Roman&apos;" fo:font-size="12pt" fo:language="en" fo:country="US" fo:font-style="italic" style:font-family-asian="Tahoma" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="en" style:country-asian="US" style:font-style-asian="italic" style:font-family-complex="&apos;Lucida Sans Unicode&apos;" style:font-family-generic-complex="swiss" style:font-pitch-complex="variable" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="Nagłówek_20_tabeli" style:display-name="Nagłówek tabeli" style:family="graphic">
+   <style:paragraph-properties fo:text-align="center" style:text-autospace="ideograph-alpha"/>
+   <style:text-properties fo:color="#000000" fo:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:language="en" fo:country="US" fo:font-weight="bold" style:font-family-asian="Tahoma" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="en" style:country-asian="US" style:font-weight-asian="bold" style:font-family-complex="&apos;Lucida Sans Unicode&apos;" style:font-family-generic-complex="swiss" style:font-pitch-complex="variable" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="Zawartość_20_tabeli" style:display-name="Zawartość tabeli" style:family="graphic">
+   <style:paragraph-properties fo:text-align="start" style:text-autospace="ideograph-alpha"/>
+   <style:text-properties fo:color="#000000" fo:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="12pt" fo:language="en" fo:country="US" style:font-family-asian="Tahoma" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="en" style:country-asian="US" style:font-family-complex="&apos;Lucida Sans Unicode&apos;" style:font-family-generic-complex="swiss" style:font-pitch-complex="variable"/>
+  </style:style>
+  <style:style style:name="Lista" style:family="graphic">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.374cm" fo:text-align="start" style:text-autospace="ideograph-alpha"/>
+   <style:text-properties fo:color="#000000" fo:font-family="Times, &apos;Times New Roman&apos;" fo:font-size="12pt" fo:language="en" fo:country="US" style:font-family-asian="Tahoma" style:font-family-generic-asian="swiss" style:font-pitch-asian="variable" style:font-size-asian="12pt" style:language-asian="en" style:country-asian="US" style:font-family-complex="&apos;Lucida Sans Unicode&apos;" style:font-family-generic-complex="swiss" style:font-pitch-complex="variable"/>
+  </style:style>
+  <style:style style:name="default" style:family="table-cell">
+   <style:graphic-properties draw:fill="solid" draw:fill-color="#ccccff" draw:textarea-horizontal-align="left" draw:textarea-vertical-align="top" fo:padding-top="0.13cm" fo:padding-bottom="0.13cm" fo:padding-left="0.25cm" fo:padding-right="0.25cm"/>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0cm" fo:line-height="100%" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="18pt" style:letter-kerning="true" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="18pt" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="18pt"/>
+  </style:style>
+  <style:style style:name="gray1" style:family="table-cell" style:parent-style-name="default">
+   <style:graphic-properties draw:fill="solid" draw:fill-color="#e6e6e6"/>
+  </style:style>
+  <style:style style:name="gray2" style:family="table-cell" style:parent-style-name="default">
+   <style:graphic-properties draw:fill="solid" draw:fill-color="#cccccc"/>
+  </style:style>
+  <style:style style:name="gray3" style:family="table-cell" style:parent-style-name="default">
+   <style:graphic-properties draw:fill="solid" draw:fill-color="#b3b3b3"/>
+  </style:style>
+  <table:table-template text:style-name="default">
+   <table:first-row table:style-name="gray3"/>
+   <table:last-row table:style-name="gray3"/>
+   <table:first-column table:style-name="gray3"/>
+   <table:last-column table:style-name="gray3"/>
+   <table:odd-rows table:style-name="gray2"/>
+   <table:odd-columns table:style-name="gray2"/>
+   <table:body table:style-name="gray1"/>
+  </table:table-template>
+  <style:style style:name="Domyślnie-background" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:text-properties style:letter-kerning="true"/>
+  </style:style>
+  <style:style style:name="Domyślnie-backgroundobjects" style:family="presentation">
+   <style:graphic-properties draw:textarea-horizontal-align="justify" draw:shadow="hidden" draw:shadow-offset-x="0.2cm" draw:shadow-offset-y="0.2cm" draw:shadow-color="#808080"/>
+   <style:text-properties style:letter-kerning="true"/>
+  </style:style>
+  <style:style style:name="Domyślnie-notes" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none"/>
+   <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="20pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="20pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="20pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline1" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:auto-grow-height="false" draw:fit-to-size="shrink-to-fit">
+    <text:list-style style:name="Domyślnie-outline1">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="–">
+      <style:list-level-properties text:space-before="1.5cm" text:min-label-width="0.9cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.8cm" text:min-label-width="0.8cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="–">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="75%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="11.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.5cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline2" style:family="presentation" style:parent-style-name="Domyślnie-outline1">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.4cm"/>
+   <style:text-properties fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline3" style:family="presentation" style:parent-style-name="Domyślnie-outline2">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.3cm"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline4" style:family="presentation" style:parent-style-name="Domyślnie-outline3">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.2cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline5" style:family="presentation" style:parent-style-name="Domyślnie-outline4">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline6" style:family="presentation" style:parent-style-name="Domyślnie-outline5">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline7" style:family="presentation" style:parent-style-name="Domyślnie-outline6">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline8" style:family="presentation" style:parent-style-name="Domyślnie-outline7">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Domyślnie-outline9" style:family="presentation" style:parent-style-name="Domyślnie-outline8">
+   <style:paragraph-properties fo:margin-top="0cm" fo:margin-bottom="0.1cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="Domyślnie-subtitle" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+    <text:list-style style:name="Domyślnie-subtitle">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="Domyślnie-title" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+    <text:list-style style:name="Domyślnie-title">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:letter-kerning="true" style:font-family-asian="&apos;Droid Sans Fallback&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Arial" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-background" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="bitmap" draw:fill-image-name="aqua1" draw:fill-image-width="0cm" draw:fill-image-height="0cm"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-backgroundobjects" style:family="presentation">
+   <style:graphic-properties draw:shadow="hidden" draw:shadow-offset-x="0.3cm" draw:shadow-offset-y="0.3cm" draw:shadow-color="#808080"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-notes" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none">
+    <text:list-style style:name="lyt-aqua-notes">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0.6cm" fo:margin-right="0cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties style:use-window-font-color="true" style:text-outline="false" style:text-line-through-style="none" fo:font-family="Albany" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="28.1000003814697pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-family-asian="&apos;Andale Sans UI&apos;" style:font-pitch-asian="variable" style:font-size-asian="28.1000003814697pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Tahoma" style:font-pitch-complex="variable" style:font-size-complex="28.1000003814697pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline1" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none">
+    <text:list-style style:name="lyt-aqua-outline1">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.3cm" text:min-label-width="0.9cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="–">
+      <style:list-level-properties text:space-before="1.6cm" text:min-label-width="0.8cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="75%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="–">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="75%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="6.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="7.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="9cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="10.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" fo:color="#ff6633" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.499cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:color="#000080" style:text-outline="false" style:text-line-through-style="none" fo:font-family="Albany" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-family-asian="&apos;Andale Sans UI&apos;" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Tahoma" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline2" style:family="presentation" style:parent-style-name="lyt-aqua-outline1">
+   <style:paragraph-properties fo:margin-left="2.399cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.399cm" fo:text-indent="-0.799cm"/>
+   <style:text-properties fo:font-size="28pt" style:font-size-asian="28pt" style:font-size-complex="28pt"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline3" style:family="presentation" style:parent-style-name="lyt-aqua-outline2">
+   <style:paragraph-properties fo:margin-left="3.599cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.3cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties fo:font-size="24pt" style:font-size-asian="24pt" style:font-size-complex="24pt"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline4" style:family="presentation" style:parent-style-name="lyt-aqua-outline3">
+   <style:paragraph-properties fo:margin-left="4.8cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.2cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline5" style:family="presentation" style:parent-style-name="lyt-aqua-outline4">
+   <style:paragraph-properties fo:margin-left="5.999cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline6" style:family="presentation" style:parent-style-name="lyt-aqua-outline5">
+   <style:paragraph-properties fo:margin-left="7.2cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline7" style:family="presentation" style:parent-style-name="lyt-aqua-outline6">
+   <style:paragraph-properties fo:margin-left="8.399cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline8" style:family="presentation" style:parent-style-name="lyt-aqua-outline7">
+   <style:paragraph-properties fo:margin-left="9.6cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-outline9" style:family="presentation" style:parent-style-name="lyt-aqua-outline8">
+   <style:paragraph-properties fo:margin-left="10.799cm" fo:margin-right="0cm" fo:margin-top="0cm" fo:margin-bottom="0.1cm" fo:text-indent="-0.6cm"/>
+   <style:text-properties fo:font-size="20pt" style:font-size-asian="20pt" style:font-size-complex="20pt"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-subtitle" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+    <text:list-style style:name="lyt-aqua-subtitle">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="-0.6cm"/>
+   <style:text-properties fo:color="#280099" style:text-outline="false" style:text-line-through-style="none" fo:font-family="Albany" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="32pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-family-asian="&apos;Andale Sans UI&apos;" style:font-pitch-asian="variable" style:font-size-asian="32pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Tahoma" style:font-pitch-complex="variable" style:font-size-complex="32pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none"/>
+  </style:style>
+  <style:style style:name="lyt-aqua-title" style:family="presentation">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:textarea-vertical-align="middle">
+    <text:list-style style:name="lyt-aqua-title">
+     <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+      <style:list-level-properties/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+      <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+      <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+      <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+      <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+      <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+     <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+      <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+      <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+     </text:list-level-style-bullet>
+    </text:list-style>
+   </style:graphic-properties>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:color="#280099" style:text-outline="false" style:text-line-through-style="none" fo:font-family="Albany" style:font-family-generic="roman" style:font-pitch="variable" fo:font-size="44pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-family-asian="&apos;Andale Sans UI&apos;" style:font-pitch-asian="variable" style:font-size-asian="44pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-family-complex="Tahoma" style:font-pitch-complex="variable" style:font-size-complex="44pt" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none"/>
+  </style:style>
+  <style:presentation-page-layout style:name="AL0T26">
+   <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="1.743cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="3.612cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="3.612cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="2.058cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+   <presentation:placeholder presentation:object="handout" svg:x="15.414cm" svg:y="5.481cm" svg:width="10.556cm" svg:height="-0.233cm"/>
+  </style:presentation-page-layout>
+  <style:presentation-page-layout style:name="AL1T0">
+   <presentation:placeholder presentation:object="title" svg:x="2.058cm" svg:y="1.743cm" svg:width="23.912cm" svg:height="3.507cm"/>
+   <presentation:placeholder presentation:object="subtitle" svg:x="2.058cm" svg:y="5.838cm" svg:width="23.912cm" svg:height="13.23cm"/>
+  </style:presentation-page-layout>
+ </office:styles>
+ <office:automatic-styles>
+  <style:page-layout style:name="PM0">
+   <style:page-layout-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:page-width="21cm" fo:page-height="29.7cm" style:print-orientation="portrait"/>
+  </style:page-layout>
+  <style:page-layout style:name="PM1">
+   <style:page-layout-properties fo:margin-top="0cm" fo:margin-bottom="0cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:page-width="28cm" fo:page-height="21cm" style:print-orientation="landscape"/>
+  </style:page-layout>
+  <style:style style:name="dp1" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="border" draw:fill="none"/>
+  </style:style>
+  <style:style style:name="dp2" style:family="drawing-page">
+   <style:drawing-page-properties draw:background-size="border" draw:fill="bitmap" draw:fill-image-name="aqua1" draw:fill-image-width="0cm" draw:fill-image-height="0cm"/>
+  </style:style>
+  <style:style style:name="dp3" style:family="drawing-page">
+   <style:drawing-page-properties presentation:display-header="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+  </style:style>
+  <style:style style:name="dp4" style:family="drawing-page">
+   <style:drawing-page-properties presentation:background-visible="true" presentation:background-objects-visible="true" presentation:display-footer="true" presentation:display-page-number="false" presentation:display-date-time="true"/>
+  </style:style>
+  <style:style style:name="gr1" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+  </style:style>
+  <style:style style:name="gr2" style:family="graphic" style:parent-style-name="standard">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+  </style:style>
+  <style:style style:name="gr3" style:family="graphic">
+   <style:graphic-properties style:protect="size"/>
+  </style:style>
+  <style:style style:name="pr1" style:family="presentation" style:parent-style-name="Domyślnie-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.449cm"/>
+  </style:style>
+  <style:style style:name="pr2" style:family="presentation" style:parent-style-name="Domyślnie-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+  </style:style>
+  <style:style style:name="pr3" style:family="presentation" style:parent-style-name="Domyślnie-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+  </style:style>
+  <style:style style:name="pr4" style:family="presentation" style:parent-style-name="lyt-aqua-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.449cm"/>
+  </style:style>
+  <style:style style:name="pr5" style:family="presentation" style:parent-style-name="lyt-aqua-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+  </style:style>
+  <style:style style:name="pr6" style:family="presentation" style:parent-style-name="lyt-aqua-backgroundobjects">
+   <style:graphic-properties draw:stroke="none" draw:fill="none" draw:fill-color="#ffffff" draw:textarea-vertical-align="bottom" draw:auto-grow-height="false" fo:min-height="1.485cm"/>
+  </style:style>
+  <style:style style:name="pr7" style:family="presentation" style:parent-style-name="lyt-aqua-title">
+   <style:graphic-properties draw:auto-grow-height="true" fo:min-height="3.506cm"/>
+  </style:style>
+  <style:style style:name="pr8" style:family="presentation" style:parent-style-name="lyt-aqua-subtitle">
+   <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="12.179cm"/>
+  </style:style>
+  <style:style style:name="pr9" style:family="presentation" style:parent-style-name="lyt-aqua-notes">
+   <style:graphic-properties draw:fill-color="#ffffff" draw:auto-grow-height="true" fo:min-height="13.364cm"/>
+  </style:style>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties style:column-width="2.819cm" style:use-optimal-column-width="false"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties style:column-width="2.823cm" style:use-optimal-column-width="false"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.937cm"/>
+  </style:style>
+  <style:style style:name="ce1" style:family="table-cell">
+   <style:graphic-properties style:repeat="repeat"/>
+  </style:style>
+  <style:style style:name="P1" style:family="paragraph">
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P2" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="end"/>
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph">
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="center" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph">
+   <style:paragraph-properties fo:margin-left="0cm" fo:margin-right="0cm" fo:text-align="end" fo:text-indent="0cm"/>
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph">
+   <style:paragraph-properties style:text-autospace="none"/>
+  </style:style>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:font-size="14pt" style:font-size-asian="14pt" style:font-size-complex="14pt"/>
+  </style:style>
+  <text:list-style style:name="L1">
+   <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+    <style:list-level-properties text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+    <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+    <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+    <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+  <text:list-style style:name="L2">
+   <text:list-level-style-bullet text:level="1" text:bullet-char="●">
+    <style:list-level-properties/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="2" text:bullet-char="●">
+    <style:list-level-properties text:space-before="0.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="3" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="4" text:bullet-char="●">
+    <style:list-level-properties text:space-before="1.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="5" text:bullet-char="●">
+    <style:list-level-properties text:space-before="2.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="6" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="7" text:bullet-char="●">
+    <style:list-level-properties text:space-before="3.6cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="8" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.2cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="9" text:bullet-char="●">
+    <style:list-level-properties text:space-before="4.8cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+   <text:list-level-style-bullet text:level="10" text:bullet-char="●">
+    <style:list-level-properties text:space-before="5.4cm" text:min-label-width="0.6cm"/>
+    <style:text-properties fo:font-family="StarSymbol" style:use-window-font-color="true" fo:font-size="45%"/>
+   </text:list-level-style-bullet>
+  </text:list-style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <draw:layer-set>
+   <draw:layer draw:name="layout"/>
+   <draw:layer draw:name="background"/>
+   <draw:layer draw:name="backgroundobjects"/>
+   <draw:layer draw:name="controls"/>
+   <draw:layer draw:name="measurelines"/>
+  </draw:layer-set>
+  <style:handout-master presentation:presentation-page-layout-name="AL0T26" style:page-layout-name="PM0" draw:style-name="dp3">
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="2.898cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="11.474cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="1cm" svg:y="20.05cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="2.898cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="11.474cm"/>
+   <draw:page-thumbnail draw:layer="backgroundobjects" svg:width="8.999cm" svg:height="6.749cm" svg:x="11cm" svg:y="20.05cm"/>
+   <draw:frame draw:style-name="gr1" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+    <draw:text-box>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame draw:style-name="gr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
+    <draw:text-box>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame draw:style-name="gr2" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
+    <draw:text-box>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame draw:style-name="gr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
+    <draw:text-box>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;numer&gt;</text:page-number></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+  </style:handout-master>
+  <style:master-page style:name="Domyślnie" style:page-layout-name="PM1" draw:style-name="dp1">
+   <draw:frame presentation:style-name="Domyślnie-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="Domyślnie-outline1" draw:layer="backgroundobjects" svg:width="24.639cm" svg:height="12.18cm" svg:x="1.4cm" svg:y="4.914cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr1" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.4cm" svg:y="19.131cm" presentation:class="date-time">
+    <draw:text-box>
+     <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:date-time/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr1" draw:text-style-name="P3" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.576cm" svg:y="19.131cm" presentation:class="footer">
+    <draw:text-box>
+     <text:p text:style-name="P3"><text:span text:style-name="T1"><presentation:footer/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr1" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.075cm" svg:y="19.131cm" presentation:class="page-number">
+    <draw:text-box>
+     <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;numer&gt;</text:page-number></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <presentation:notes style:page-layout-name="PM0">
+    <draw:page-thumbnail presentation:style-name="Domyślnie-title" draw:layer="backgroundobjects" svg:width="14.848cm" svg:height="11.135cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
+    <draw:frame presentation:style-name="Domyślnie-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr2" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+     <draw:text-box>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:header/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr2" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="0cm" presentation:class="date-time">
+     <draw:text-box>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><presentation:date-time/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr3" draw:text-style-name="P1" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
+     <draw:text-box>
+      <text:p text:style-name="P1"><text:span text:style-name="T1"><presentation:footer/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr3" draw:text-style-name="P2" draw:layer="backgroundobjects" svg:width="9.112cm" svg:height="1.484cm" svg:x="11.887cm" svg:y="28.215cm" presentation:class="page-number">
+     <draw:text-box>
+      <text:p text:style-name="P2"><text:span text:style-name="T1"><text:page-number>&lt;numer&gt;</text:page-number></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+   </presentation:notes>
+  </style:master-page>
+  <style:master-page style:name="lyt-aqua" style:page-layout-name="PM1" draw:style-name="dp2">
+   <draw:frame presentation:style-name="lyt-aqua-title" draw:layer="backgroundobjects" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="lyt-aqua-outline1" draw:layer="backgroundobjects" svg:width="24.599cm" svg:height="12.18cm" svg:x="2cm" svg:y="5.5cm" presentation:class="outline" presentation:placeholder="true">
+    <draw:text-box/>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr4" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="1.7cm" svg:y="18.231cm" presentation:class="date-time">
+    <draw:text-box>
+     <text:p text:style-name="P4"><text:span text:style-name="T1"><presentation:date-time/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr4" draw:text-style-name="P5" draw:layer="backgroundobjects" svg:width="8.875cm" svg:height="1.448cm" svg:x="9.876cm" svg:y="18.231cm" presentation:class="footer">
+    <draw:text-box>
+     <text:p text:style-name="P5"><text:span text:style-name="T1"><presentation:footer/></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <draw:frame presentation:style-name="pr4" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:width="6.523cm" svg:height="1.448cm" svg:x="20.376cm" svg:y="18.231cm" presentation:class="page-number">
+    <draw:text-box>
+     <text:p text:style-name="P6"><text:span text:style-name="T1"><text:page-number>&lt;numer&gt;</text:page-number></text:span></text:p>
+    </draw:text-box>
+   </draw:frame>
+   <presentation:notes style:page-layout-name="PM0">
+    <draw:page-thumbnail presentation:style-name="lyt-aqua-title" draw:layer="backgroundobjects" svg:width="14.848cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" presentation:class="page"/>
+    <draw:frame presentation:style-name="lyt-aqua-notes" draw:layer="backgroundobjects" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr5" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="0cm" presentation:class="header">
+     <draw:text-box>
+      <text:p text:style-name="P4"><text:span text:style-name="T1"><presentation:header/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr5" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="0cm" presentation:class="date-time">
+     <draw:text-box>
+      <text:p text:style-name="P6"><text:span text:style-name="T1"><presentation:date-time/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr6" draw:text-style-name="P4" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="0cm" svg:y="28.215cm" presentation:class="footer">
+     <draw:text-box>
+      <text:p text:style-name="P4"><text:span text:style-name="T1"><presentation:footer/></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr6" draw:text-style-name="P6" draw:layer="backgroundobjects" svg:width="9.113cm" svg:height="1.484cm" svg:x="11.886cm" svg:y="28.215cm" presentation:class="page-number">
+     <draw:text-box>
+      <text:p text:style-name="P6"><text:span text:style-name="T1"><text:page-number>&lt;numer&gt;</text:page-number></text:span></text:p>
+     </draw:text-box>
+    </draw:frame>
+   </presentation:notes>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:presentation>
+   <draw:page draw:name="page1" draw:style-name="dp4" draw:master-page-name="lyt-aqua" presentation:presentation-page-layout-name="AL1T0">
+    <draw:frame presentation:style-name="pr7" draw:layer="layout" svg:width="25.199cm" svg:height="3.506cm" svg:x="1.4cm" svg:y="0.837cm" presentation:class="title" presentation:placeholder="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame presentation:style-name="pr8" draw:layer="layout" svg:width="24.599cm" svg:height="12.179cm" svg:x="2cm" svg:y="5.5cm" presentation:class="subtitle" presentation:placeholder="true" presentation:user-transformed="true">
+     <draw:text-box/>
+    </draw:frame>
+    <draw:frame draw:style-name="standard" draw:layer="layout" svg:width="14.098cm" svg:height="4.859cm" svg:x="6.958cm" svg:y="8.986cm">
+     <table:table table:template-name="default" table:use-first-row-styles="true" table:use-banding-rows-styles="true">
+      <table:table-column table:style-name="co1"/>
+      <table:table-column table:style-name="co1"/>
+      <table:table-column table:style-name="co1"/>
+      <table:table-column table:style-name="co1"/>
+      <table:table-column table:style-name="co2"/>
+      <table:table-row table:style-name="ro1" table:default-cell-style-name="ce1">
+       <table:table-cell/>
+       <table:table-cell>
+        <text:p text:style-name="P7">12</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">13</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">14</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">15</text:p>
+       </table:table-cell>
+      </table:table-row>
+      <table:table-row table:style-name="ro1" table:default-cell-style-name="ce1">
+       <table:table-cell>
+        <text:p text:style-name="P7">21</text:p>
+       </table:table-cell>
+       <table:table-cell/>
+       <table:table-cell>
+        <text:p text:style-name="P7">23</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">24</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">25</text:p>
+       </table:table-cell>
+      </table:table-row>
+      <table:table-row table:style-name="ro1" table:default-cell-style-name="ce1">
+       <table:table-cell>
+        <text:p text:style-name="P7">31</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">32</text:p>
+       </table:table-cell>
+       <table:table-cell/>
+       <table:table-cell>
+        <text:p text:style-name="P7">34</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">35</text:p>
+       </table:table-cell>
+      </table:table-row>
+      <table:table-row table:style-name="ro1" table:default-cell-style-name="ce1">
+       <table:table-cell>
+        <text:p text:style-name="P7">41</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">42</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">43</text:p>
+       </table:table-cell>
+       <table:table-cell/>
+       <table:table-cell>
+        <text:p text:style-name="P7">45</text:p>
+       </table:table-cell>
+      </table:table-row>
+      <table:table-row table:style-name="ro1" table:default-cell-style-name="ce1">
+       <table:table-cell>
+        <text:p text:style-name="P7">51</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">52</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">53</text:p>
+       </table:table-cell>
+       <table:table-cell>
+        <text:p text:style-name="P7">54</text:p>
+       </table:table-cell>
+       <table:table-cell/>
+      </table:table-row>
+     </table:table><draw:image>
+      <office:binary-data>VkNMTVRGAgAyAAAAAAAAAAEAGwAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAABY3AAD/
+       EgAAFgMAAACJAAEAIQAAAAEAGwAAAA0A0+T//+fc//8BAAAAAQAAAAEAAAABAAAAAJYAAQAC
+       AAAACQCFAAEABQAAALOzswABhAABAAUAAAAAAAAAAAACAQC8AAAAEwBYUEFUSEZJTExfU0VR
+       X0JFR0lOAAAAAJ8AAAABAJkAAAABAC0AAAABAAUALhsAABojAAAxJgAAGiMAADEmAADmJgAA
+       LhsAAOYmAAAuGwAAGiMAAAAAgLOzs7OzswAAAAAAAAAAAQAAAAAAAAAAAPA/AAAAAAAAAAAA
+       AAAAAAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAA
+       gAAAAAAAAAAAAABvAAIALgAAAAEABQAuGwAAGiMAADEmAAAaIwAAMSYAAOYmAAAuGwAA5iYA
+       AC4bAAAaIwAAAAAAAgEAGwAAABEAWFBBVEhGSUxMX1NFUV9FTkQAAAAAAAAAAAACAQAgAAAA
+       FgBYVEVYVF9QQUlOVFNIQVBFX0JFR0lOAAAAAAAAAAAAAgEAQwAAAA8ARklFTERfU0VRX0JF
+       R0lOAAAAACoAAABoAHQAdABwADoALwAvAHcAdwB3AC4AZgBpAHIAcwB0AC4AYwBvAG0ALwCK
+       AAEAQQAAAAMAOwAAAA8ATGliZXJhdGlvbiBTYW5zAAAAAAAAewIAAP//AAACAAUAAAAAAAAA
+       FQQAAAAAAAAAAAD/AwAAAAAAiAABAAIAAAABAIcAAQAFAAAA/////wCGAAEABAAAAIAAAABx
+       AAIAPgAAACgcAADcJQAABQAAAGYAaQByAHMAdAAAAAUABQAAALIAAAA+AQAAEQIAAE8DAAAA
+       BAAABQBmAGkAcgBzAHQAAAIBABMAAAAJAFhURVhUX0VPQwAAAAAAAAAAAAIBABMAAAAJAFhU
+       RVhUX0VPQwEAAAAAAAAAAAIBABMAAAAJAFhURVhUX0VPQwIAAAAAAAAAAAIBABMAAAAJAFhU
+       RVhUX0VPQwMAAAAAAAAAAAIBABMAAAAJAFhURVhUX0VPQwQAAAAAAAAAAAIBABcAAAANAEZJ
+       RUxEX1NFUV9FTkQAAAAAAAAAAAACAQATAAAACQBYVEVYVF9FT0wAAAAAAAAAAAACAQATAAAA
+       CQBYVEVYVF9FT1AAAAAAAAAAAAACAQAeAAAAFABYVEVYVF9QQUlOVFNIQVBFX0VORAAAAAAA
+       AAAAhQABAAUAAACzs7MAAYQAAQAFAAAAAAAAAAAAAgEAvAAAABMAWFBBVEhGSUxMX1NFUV9C
+       RUdJTgAAAACfAAAAAQCZAAAAAQAtAAAAAQAFADEmAAAaIwAANDEAABojAAA0MQAA5iYAADEm
+       AADmJgAAMSYAABojAAAAAICzs7Ozs7MAAAAAAAAAAAEAAAAAAAAAAADwPwAAAAAAAAAAAAAA
+       AAAAAAAAAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAIAAAAAAAAAAAACAAAAAAAAAAIAA
+       AAAAAAAAAAAAbwACAC4AAAABAAUAMSYAABojAAA0MQAAGiMAADQxAADmJgAAMSYAAOYmAAAx
+       JgAAGiMAAAAAAAIBABsAAAARAFhQQVRIRklMTF9TRVFfRU5EAAAAAAAAAAAAAgEAIAAAABYA
+       WFRFWFRfUEFJTlRTSEFQRV9CRUdJTgAAAAAAAAAAigABAEEAAAADADsAAAAPAExpYmVyYXRp
+       b24gU2FucwAAAAAAAHsCAAD//wAAAgAFAAAAAAAAABUEAAAAAAAAAAAA/wMAAAAAAIgAAQAC
+       AAAAAQCHAAEABQAAAP////8AhgABAAQAAAAbHB8AcQACACYAAAArJwAA3CUAAAIAAAAxADIA
+       AAACAAIAAABfAQAAvwIAAAIAMQAyAAACAQATAAAACQBYVEVYVF9FT0MAAAAAAAAAAAACAQAT
+       AAAACQBYVEVYVF9FT0MBAAAAAAAAAAACAQATAAAACQBYVEVYVF9FT0wAAAAAAAAAAAACAQAT
+       AAAACQBYVEVYVF9FT1AAAAAAAAAAAAACAQAeAAAAFABYVEVYVF9QQUlOVFNIQVBFX0VORAAA
+       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
+       AFhURVhUX0VPQwEAAAAAAAAAAAIBABMAAAAJAFhURVhUX0VPTAAAAAAAAAAAAAIBABMAAAAJ
+       AFhURVhUX0VPUAAAAAAAAAAAAAIBAB4AAAAUAFhURVhUX1BBSU5UU0hBUEVfRU5EAAAAAAAA
+       AACFAAEABQAAAMzMzAABhAABAAUAAAAAAAAAAAACAQC8AAAAEwBYUEFUSEZJTExfU0VRX0JF
+       R0lOAAAAAJ8AAAABAJkAAAABAC0AAAABAAUANzwAAOYmAAA6RwAA5iYAADpHAACyKgAANzwA
+       ALIqAAA3PAAA5iYAAAAAgMzMzMzMzAAAAAAAAAAAAQAAAAAAAAAAAPA/AAAAAAAAAAAAAAAA
+       AAAAAAAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAgAAA
+       AAAAAAAAAABvAAIALgAAAAEABQA3PAAA5iYAADpHAADmJgAAOkcAALIqAAA3PAAAsioAADc8
+       AADmJgAAAAAAAgEAGwAAABEAWFBBVEhGSUxMX1NFUV9FTkQAAAAAAAAAAAACAQAgAAAAFgBY
+       VEVYVF9QQUlOVFNIQVBFX0JFR0lOAAAAAAAAAACKAAEAQQAAAAMAOwAAAA8ATGliZXJhdGlv
+       biBTYW5zAAAAAAAAewIAAP//AAACAAUAAAAAAAAAFQQAAAAAAAAAAAD/AwAAAAAAiAABAAIA
+       AAABAIcAAQAFAAAA/////wCGAAEABAAAABscHwBxAAIAJgAAADE9AACoKQAAAgAAADIANAAA
+       AAIAAgAAAF8BAAC/AgAAAgAyADQAAAIBABMAAAAJAFhURVhUX0VPQwAAAAAAAAAAAAIBABMA
+       AAAJAFhURVhUX0VPQwEAAAAAAAAAAAIBABMAAAAJAFhURVhUX0VPTAAAAAAAAAAAAAIBABMA
+       AAAJAFhURVhUX0VPUAAAAAAAAAAAAAIBAB4AAAAUAFhURVhUX1BBSU5UU0hBUEVfRU5EAAAA
+       AAAAAACFAAEABQAAAMzMzAABhAABAAUAAAAAAAAAAAACAQC8AAAAEwBYUEFUSEZJTExfU0VR
+       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
+      </office:binary-data>
+     </draw:image>
+    </draw:frame>
+    <presentation:notes draw:style-name="dp3">
+     <draw:page-thumbnail draw:style-name="gr3" draw:layer="layout" svg:width="14.848cm" svg:height="11.136cm" svg:x="3.075cm" svg:y="2.257cm" draw:page-number="1" presentation:class="page"/>
+     <draw:frame presentation:style-name="pr9" draw:layer="layout" svg:width="16.799cm" svg:height="13.364cm" svg:x="2.1cm" svg:y="14.107cm" presentation:class="notes" presentation:placeholder="true">
+      <draw:text-box/>
+     </draw:frame>
+    </presentation:notes>
+   </draw:page>
+   <presentation:settings presentation:mouse-visible="false"/>
+  </office:presentation>
+ </office:body>
+</office:document>

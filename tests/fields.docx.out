@@ -1,0 +1,16 @@
+Document - author - name: Xxx Yyy
+Document - author – initials: XY
+Document - date: 13-6-26
+Document - time: 20:17:36
+Document - filename - filename: fields.docx
+Document - statistics - pages: 1
+Document - page – page number: 1
+Functions – input field: 
+Functions – input field (with quotes): 
+Functions – input field with default value: Sample default value
+Functions – fill field – text: <Please enter text here.>
+Document info – topic: Fields test topic
+Document info – title: Fields test title
+Document info – created – date: Informacje o dokumencie:Utworzony
+Document info – version: 1
+

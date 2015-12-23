@@ -1,0 +1,143 @@
+Version 4.0:
+	* fixed bug in utf8 encoding for RT_TextBytesAtom record in PPT parser
+	* Initial Open Document Flat XML Parser (fodt, fods, fodg, fodp)
+	* Initial EML Parser (with ability to extract attachments)
+	* Capabilities of C API has been expanded.
+	* Better charset detection in HTML parser.
+	* New TXT parser (Can be used to change encoding to UTF8)
+	* ListStyle is a class now (not an enum).
+	* Initial PDF parser.
+	* Whole public interface of DocToText (PlainTextExctractor, Metadata, Link, Exception, FormattingStyle) is available under doctotext namespace.
+	* DocToText supports exceptions now (Exception class).
+	* Reorganization of url handling. PlainTextExtractor can now return list of links. Supported parsers: HTML/EML/ODF_OOXML/ODFXML.
+	* PlainTextExtractor allows now for parsing files from memory buffer.
+	* Independence from glib, libgsf, gettext. Pthreads are used instead of gthreads, build-in OLEReader is used instead of libgsf.
+	* New iWork parser.
+	* New XLSB parser.
+	* Extracting number of pages from ODG files fixed.
+	* ODG files added to automatic tests.
+	* Support for Object Linking and Embedding (OLE) in ODF formats added.
+	* Managing libxml2 (initialization and cleanup) can be disabled.
+	* Thread-safety fixed in ODF, OOXML and DOC parsers.
+	* Better handling of fields in DOC and DOT files.
+	* Better handling of headings in ODF documents.
+	* Fixes for x86_64 architecture.
+	* Improved stability in multithreaded environments.
+	* Embedded XLS Workbooks in DOC files supported without creating temporary files.
+	* Cleanups in ODF and OOXML parsers.
+	* Memory consumption of ODF and OOXML parsers significantly reduced.
+	* Better handling of fields in DOCX files.
+	* Fixed crash in RTF parser for invalid files.
+	* Fixes in XLS parser.
+	* Initial port to win64 architecture.
+	* Function enter and exit tracking feature useful for debugging.
+
+Version 0.14.0:
+	* Initial HTML format support.
+	* Initial implementation of metadata extractor (author, creation time, last modified by, last modification time, page count, word count
+	* Font commands in XLSX header or footer do not corrupt output any more.
+	* Estimate not existing meta values using different techniques.
+	* Initial implementation of annotations support (ODT, DOC, DOCX, RTF formats).
+	* Download and use precompiled wv2 binaries
+	* Initial API documentation (Doxygen)
+	* Fallback to other parsers if specified parser fails
+	* Fixes and improvements in XLS parser.
+	* C++ API extended to allow communicating without STL objects (to mix two STL implementations for example).
+	* Line break handling in ODF and OOXML formats fixed.
+
+Version 0.13.0
+	* Initial Mac OS X port
+	* Initial implementation of shared library
+	* C language API added to allow using C++ library from C and other languages
+	* Universal binary (i386, x86_64) for Mac OS X
+	* Static linking of 3rdparty libraries option for Mac OS X
+	* Cleanups
+	* First parser selection is according to file extension
+	* First parser used can be choosen via command line
+	* Embedded XLS Workbooks support in DOC files
+	* Table cells encoding problems in DOC files fixed.
+	* Case insensitive file extension matching.
+	* Do not try other parsers if parser selected by file extension fails.
+	* New XLS parser.
+	* Small fix in XLS numbers formatting.
+	* Small fix in parsing XLS shared string table.
+	* Locating files in zip archives (ODF, OOXML) optimized.
+	* Initial PPT format support. ODP, PPT, PPTX files added to automatic tests.
+	* Fixes in DOC and XLS parsers.
+	* Verbose logging can be turned on and off.
+	* Logs can be redirected to other C++ stream than standard cerr.
+	* Redesigned C++ API.
+	* Debug and release versions separated.
+	* End of paragraph special symbols support fixed.
+	* Download and use more precompiled libraries
+	* Small and big compilation fixes
+	* Headers and footers support in DOC files added
+
+Version 0.12.0:
+	* Formatting tables optimized
+	* Build-in libxml2 library upgraded to version 2.7.7
+	* Initial xls format support
+	* Better default table formatting
+	* Support for DOC format moved to DOCParser class
+	* RTFParser API uses standard string class only
+	* Cleanups
+	* Error message is not displayed when checking for ODF or OOXML format fails
+	* Table parsing in DOC files improved
+	* Link parsing in DOC files improved
+	* Cleanups
+	* Copyright headers updated
+	* Packages in bzip2 format instead of gzip
+	* ODS (OpenOffice Calc) files added to automatic tests
+	* VERSION file added to binary packages
+	* Download and use precompiled libiconv binaries
+	* Encoding problems in XLS format support on win32 fixed
+	* Use MAKE variable executing make recursively
+
+Version 0.11.0:
+	* zip archives (ODF, OOXML) support moved to DocToTextUnzip class
+	* --unzip-cmd option implemented to use specified command to unzip files from archives (ODF, OOXML) instead of build-in decompression library
+	* --unzip-cmd fixed on win32 - replacing slashes with backslashes in filename
+	* --fix-xml option implemented to try to fix corrupted xml files (ODF, OOXML) using custom recursive descent parser before processing
+	* some ODF and OOXML formatting issues fixed
+	* UTF-8 support in corrupted xml files (ODF, OOXML) fixing routines
+	* Makefile dependencies fixed
+	* --strip-xml option implemented to strip xml tags instead of parsing them (ODF, OOXML)
+	* Entities support in corrupted xml files (ODF, OOXML) fixing routines
+	* max tag depth security limit of libxml supported in corrupted xml files (ODF, OOXML) fixing routines
+	* a lot of compilation warnings fixed
+	* small fix for encoding support in RTF parser
+	* --strip-xml option removes duplicated attributes
+	* ChangeLog file added to binary releases
+	* copyright headers updated
+
+Version 0.10.0:
+	* Command line arguments added to change tables, lists and links formatting (for odt files only)
+	* glib upgraded to 2.14.5
+	* initial OOXML formats support
+	* Parsing tables in DOC fixed
+	* support for mixed character encodings RTF files created using MS WordPad or MS Word (thanks to John Estrada)
+	* ioapi of unzip library changed from winapi to fopen api in win32 version - winapi io in unzip library caused some problems, for example xlsx file could not be open when is open in MS Word
+	* allocating memory using expotential grow in UString - big performance boost in rtf parser
+	* copyright headers updated
+
+
+Version 0.9.0:
+	* patch for gettext fixing duplicate case value errors
+	* glib upgraded to 2.12.11 - duplicate case value errors
+	* wstring changed to UString in rtf parser - problems on mingw
+	* initial support of charset in rtf parser
+	* initial odt format support
+	* performing automatic tests after the source code is compiled
+	* memory error fixed - unzReadCurrentFile() does not put NULL at the end of the buffer
+	* counting function added
+	* number of characters read from file was changed to corect value
+
+
+Version 0.2.0:
+	* rtf format support
+
+Version 0.1.0:
+	* initial implementation
+	* output in utf-8 encoding
+	* help, copyright headers, README
+	* paragraphs support

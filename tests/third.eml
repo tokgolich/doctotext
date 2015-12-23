@@ -1,0 +1,66 @@
+Delivered-To: alicja.cc@gmail.com
+Received: by 10.112.26.201 with SMTP id n9csp62396lbg;
+        Fri, 1 Nov 2013 19:57:20 -0700 (PDT)
+X-Received: by 10.15.64.1 with SMTP id n1mr5783502eex.15.1383361040741;
+        Fri, 01 Nov 2013 19:57:20 -0700 (PDT)
+Return-Path: <alicja.celigowska@silvercoders.com>
+Received: from mars.silvercoders.com (mars.silvercoders.com. [85.25.46.62])
+        by mx.google.com with ESMTP id x43si3732750eep.10.2013.11.01.19.57.20
+        for <alicja.cc@gmail.com>;
+        Fri, 01 Nov 2013 19:57:20 -0700 (PDT)
+Received-SPF: pass (google.com: domain of alicja.celigowska@silvercoders.com designates 85.25.46.62 as permitted sender) client-ip=85.25.46.62;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of alicja.celigowska@silvercoders.com designates 85.25.46.62 as permitted sender) smtp.mail=alicja.celigowska@silvercoders.com
+Received: from silvercoders.com (mars.silvercoders.com [85.25.46.62])
+	by mars.silvercoders.com (Postfix) with ESMTPA id 20E5919416CD
+	for <alicja.cc@gmail.com>; Sat,  2 Nov 2013 03:56:44 +0100 (CET)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8;
+ format=flowed
+Content-Transfer-Encoding: 8bit
+Date: Sat, 02 Nov 2013 03:56:44 +0100
+From: Alicja Celigowska <alicja.celigowska@silvercoders.com>
+To: haruchi ACC <alicja.cc@gmail.com>
+Subject: Re: EmlJeden
+Organization: SILVERCODERS
+In-Reply-To: <CAKf7Yv32VeRy3hGKhiirpsvQS-_tG3eqwt-Jn89bj=yZa3QSUw@mail.gmail.com>
+References: <4bc918232512ff1b652d4fb184d939f5@mail.silvercoders.com>
+ <CAKf7Yv32VeRy3hGKhiirpsvQS-_tG3eqwt-Jn89bj=yZa3QSUw@mail.gmail.com>
+Message-ID: <79c25c5c3bdfc0e8223445bf76991b11@mail.silvercoders.com>
+X-Sender: alicja.celigowska@silvercoders.com
+User-Agent: Roundcube Webmail/0.7.1
+
+W dniu 02.11.2013 03:56, haruchi ACC napisał(a):
+> Dowolna losowa odpowiedź
+> 
+> W dniu 2 listopada 2013 03:55 użytkownik Alicja Celigowska
+> <alicja.celigowska@silvercoders.com> napisał:
+> 
+>> Pierwszy test EML.
+>> 
+>> --
+>> Alicja Celigowska         SILVERCODERS(R) - "Quality and
+>> Competence"
+>> http://silvercoders.com [1]                   Foksal 18,
+>> 00-372 Warszawa
+>> 50% zysku dla dystrybutorów, zapraszamy!     tel. +48 (22) 213
+>> 91 14 [2]
+>> https://wizytowka.rzetelnafirma.pl/WHYCR231 [3]  fax. +48 (22) 213
+>> 91 15 [4]
+> 
+> 
+> 
+> Links:
+> ------
+> [1] http://silvercoders.com
+> [2] tel:%2B48%20%2822%29%20213%2091%2014
+> [3] https://wizytowka.rzetelnafirma.pl/WHYCR231
+> [4] tel:%2B48%20%2822%29%20213%2091%2015
+
+Ostatnia wiadomość w teście.
+
+-- 
+Alicja Celigowska         SILVERCODERS(R) - "Quality and Competence"
+http://silvercoders.com                   Foksal 18, 00-372 Warszawa
+50% zysku dla dystrybutorów, zapraszamy!     tel. +48 (22) 213 91 14
+https://wizytowka.rzetelnafirma.pl/WHYCR231  fax. +48 (22) 213 91 15

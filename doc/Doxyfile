@@ -1,0 +1,6 @@
+PROJECT_NAME		=	"SILVERCODERS DocToText"
+PROJECT_NUMBER		=	VERSION
+PROJECT_BRIEF		=	"Converts DOC, XLS, XLSB, PPT, RTF, ODF (ODT, ODS, ODP), OOXML (DOCX, XLSX, PPTX), iWork (PAGES, NUMBERS, KEYNOTE), ODFXML (FODP, FODS, FODT), PDF, EML and HTML documents to plain text. Extracts metadata and annotations."
+INPUT			=	./mainpage.dox ../src/plain_text_extractor.h ../src/metadata.h ../src/link.h ../src/formatting_style.h ../src/exception.h ../src/doctotext_c_api.h ../src/attachment.h ../src/variant.h
+STRIP_FROM_PATH		=	../src
+GENERATE_LATEX		=	NO

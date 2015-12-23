@@ -1,0 +1,54 @@
+
+
+
+
+
+_hyperlink_example_		
+Some text		
+List:		
+1. first		
+2. second		
+3. third		
+Other list:		
+●	one		
+●	two		
+●	three		
+table:		
+11	12	13	14		
+21	22	23	24		
+31	32	33	34		
+41	42	43	44		
+Table with hyperlinks:		
+_first_	_second_		
+_third_	_fourth_		
+Tabela with lists:		
+first	second	third		
+●	one	1.	one	●	one		
+●	two	2.	two	●	two		
+●	three	3.	three	●	three		
+fourth	fiveth	sixth		
+1.	one	●	one	1.	one		
+2.	two	●	two	2.	two		
+3.	three	●	three			
+seventh	eighth	nineth		
+1.	one		
+2.	two		
+3.	three		
+4.	four		
+		
+_email_example_		
+	
+
+
+
+
+
+
+
+parsed links:
+http://www.example.com/ @ index = 5 length = 19
+http://www.first.com/ @ index = 217 length = 7
+http://www.second.com/ @ index = 225 length = 8
+http://www.third.com/ @ index = 236 length = 7
+http://www.fourth.com/ @ index = 244 length = 8
+mailto:email@example.com @ index = 536 length = 15

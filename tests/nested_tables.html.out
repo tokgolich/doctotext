@@ -1,0 +1,20 @@
+ 
+Nested tables with links
+
+Znaczki spoza ascii ąśćłóżł
+ _header_ 
+  _first_ 	 _second_ 
+ 
+1.   _third_ 	 _fourth_ 
+2.   _fifth_ 	 _sixth_ 
+3.  Some text 
+
+
+parsed links:
+header @ index = 64 length = 8
+first_link @ index = 76 length = 7
+second_link @ index = 86 length = 8
+third_link @ index = 103 length = 7
+fourth_link @ index = 113 length = 8
+fifth_link @ index = 128 length = 7
+sixth_link @ index = 138 length = 7

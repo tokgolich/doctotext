@@ -1,0 +1,16 @@
+Document - author - name: Xxx Yyy
+Document - author – initials: XY
+Document - date: 26.03.2013
+Document - time: 01:15:38
+Document - filename - filename: fields.doc
+Document - statistics - pages: 1
+Document - page – page number: 1
+Functions – input field: "Please enter text here." 
+Functions – input field (with quotes): ""aaa" bbb "ccc" ddd e"\@" 
+Functions – input field with default value: "Please enter text here." Sample default value
+Functions – fill field – text: <Please enter text here.>
+Document info – topic: Fields test topic
+Document info – title: Fields test title
+Document info – created – date: 20.03.2013
+Document info – version: 1
+

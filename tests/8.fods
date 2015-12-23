@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:presentation="urn:oasis:names:tc:opendocument:xmlns:presentation:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.spreadsheet">
+ <office:meta><dc:creator>Adrian Smarzewski</dc:creator><dc:date>2010-05-18T23:46:59</dc:date><meta:editing-cycles>3</meta:editing-cycles><meta:editing-duration>PT575H11M18S</meta:editing-duration><meta:generator>LibreOffice/3.5$Linux_X86_64 LibreOffice_project/350m1$Build-2</meta:generator><meta:document-statistic meta:table-count="3" meta:cell-count="64" meta:object-count="0"/></office:meta>
+ <office:settings>
+  <config:config-item-set config:name="ooo:view-settings">
+   <config:config-item config:name="VisibleAreaTop" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaLeft" config:type="int">0</config:config-item>
+   <config:config-item config:name="VisibleAreaWidth" config:type="int">11708</config:config-item>
+   <config:config-item config:name="VisibleAreaHeight" config:type="int">18282</config:config-item>
+   <config:config-item-map-indexed config:name="Views">
+    <config:config-item-map-entry>
+     <config:config-item config:name="ViewId" config:type="string">view1</config:config-item>
+     <config:config-item-map-named config:name="Tables">
+      <config:config-item-map-entry config:name="Arkusz1">
+       <config:config-item config:name="CursorPositionX" config:type="int">2</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">28</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">13</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Arkusz2">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+      <config:config-item-map-entry config:name="Arkusz3">
+       <config:config-item config:name="CursorPositionX" config:type="int">0</config:config-item>
+       <config:config-item config:name="CursorPositionY" config:type="int">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="VerticalSplitMode" config:type="short">0</config:config-item>
+       <config:config-item config:name="HorizontalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="VerticalSplitPosition" config:type="int">0</config:config-item>
+       <config:config-item config:name="ActiveSplitRange" config:type="short">2</config:config-item>
+       <config:config-item config:name="PositionLeft" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionRight" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionTop" config:type="int">0</config:config-item>
+       <config:config-item config:name="PositionBottom" config:type="int">0</config:config-item>
+       <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+       <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+       <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+       <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+      </config:config-item-map-entry>
+     </config:config-item-map-named>
+     <config:config-item config:name="ActiveTable" config:type="string">Arkusz1</config:config-item>
+     <config:config-item config:name="HorizontalScrollbarWidth" config:type="int">289</config:config-item>
+     <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
+     <config:config-item config:name="ZoomValue" config:type="int">100</config:config-item>
+     <config:config-item config:name="PageViewZoomValue" config:type="int">60</config:config-item>
+     <config:config-item config:name="ShowPageBreakPreview" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+     <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+     <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+     <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+     <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+     <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+     <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+    </config:config-item-map-entry>
+   </config:config-item-map-indexed>
+  </config:config-item-set>
+  <config:config-item-set config:name="ooo:configuration-settings">
+   <config:config-item config:name="ShowNotes" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsDocumentShared" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowZeroValues" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="GridColor" config:type="long">12632256</config:config-item>
+   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowPageBreaks" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="ShowGrid" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
+   <config:config-item config:name="AutoCalculate" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="PrinterName" config:type="string"/>
+   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
+   <config:config-item config:name="IsRasterAxisSynchronized" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsSnapToRaster" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="RasterSubdivisionX" config:type="int">1</config:config-item>
+   <config:config-item config:name="RasterResolutionY" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterResolutionX" config:type="int">1000</config:config-item>
+   <config:config-item config:name="RasterIsVisible" config:type="boolean">false</config:config-item>
+   <config:config-item config:name="LinkUpdateMode" config:type="short">3</config:config-item>
+   <config:config-item config:name="RasterSubdivisionY" config:type="int">1</config:config-item>
+   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasColumnRowHeaders" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="HasSheetTabs" config:type="boolean">true</config:config-item>
+   <config:config-item config:name="IsOutlineSymbolsSet" config:type="boolean">true</config:config-item>
+  </config:config-item-set>
+ </office:settings>
+ <office:scripts>
+  <office:script script:language="ooo:Basic">
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  </office:script>
+ </office:scripts>
+ <office:font-face-decls>
+  <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman"/>
+  <style:font-face style:name="Czcionka tekstu podstawowego" svg:font-family="&apos;Czcionka tekstu podstawowego&apos;" style:font-family-generic="swiss"/>
+  <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
+  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
+ </office:font-face-decls>
+ <office:styles>
+  <style:default-style style:family="table-cell">
+   <style:table-cell-properties style:decimal-places="2"/>
+   <style:paragraph-properties style:tab-stop-distance="1.25cm"/>
+   <style:text-properties style:font-name="Arial" fo:language="pl" fo:country="PL" style:font-name-asian="DejaVu Sans" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="DejaVu Sans" style:language-complex="hi" style:country-complex="IN"/>
+  </style:default-style>
+  <number:number-style style:name="N0">
+   <number:number number:min-integer-digits="1"/>
+  </number:number-style>
+  <number:currency-style style:name="N110P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="pl" number:country="PL">zł</number:currency-symbol>
+  </number:currency-style>
+  <number:currency-style style:name="N110">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <number:text> </number:text>
+   <number:currency-symbol number:language="pl" number:country="PL">zł</number:currency-symbol>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N110P0"/>
+  </number:currency-style>
+  <number:number-style style:name="N111P0" style:volatile="true">
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N111">
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N111P0"/>
+  </number:number-style>
+  <number:number-style style:name="N112P0" style:volatile="true">
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N112">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="0" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N112P0"/>
+  </number:number-style>
+  <number:number-style style:name="N113P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N113">
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N113P0"/>
+  </number:number-style>
+  <number:number-style style:name="N114P0" style:volatile="true">
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+  </number:number-style>
+  <number:number-style style:name="N114">
+   <style:text-properties fo:color="#ff0000"/>
+   <number:text>-</number:text>
+   <number:number number:decimal-places="2" number:min-integer-digits="1" number:grouping="true"/>
+   <style:map style:condition="value()&gt;=0" style:apply-style-name="N114P0"/>
+  </number:number-style>
+  <number:time-style style:name="N115">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N116" number:truncate-on-overflow="false">
+   <number:hours/>
+   <number:text>:</number:text>
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long"/>
+  </number:time-style>
+  <number:time-style style:name="N117">
+   <number:minutes number:style="long"/>
+   <number:text>:</number:text>
+   <number:seconds number:style="long" number:decimal-places="1"/>
+  </number:time-style>
+  <number:number-style style:name="N118">
+   <number:scientific-number number:decimal-places="1" number:min-integer-digits="3" number:min-exponent-digits="1"/>
+  </number:number-style>
+  <style:style style:name="Default" style:family="table-cell"/>
+  <style:style style:name="Result" style:family="table-cell" style:parent-style-name="Default">
+   <style:text-properties fo:font-style="italic" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Result2" style:family="table-cell" style:parent-style-name="Result" style:data-style-name="N110"/>
+  <style:style style:name="Heading" style:family="table-cell" style:parent-style-name="Default">
+   <style:table-cell-properties style:text-align-source="fix" style:repeat-content="false"/>
+   <style:paragraph-properties fo:text-align="center"/>
+   <style:text-properties fo:font-size="16pt" fo:font-style="italic" fo:font-weight="bold"/>
+  </style:style>
+  <style:style style:name="Heading1" style:family="table-cell" style:parent-style-name="Heading">
+   <style:table-cell-properties style:rotation-angle="90"/>
+  </style:style>
+  <style:style style:name="Excel_20_Built-in_20_Normal" style:display-name="Excel Built-in Normal" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="no-wrap" fo:border="none" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="Excel_5f_BuiltIn_5f_Hyperlink" style:display-name="Excel_BuiltIn_Hyperlink" style:family="table-cell" style:parent-style-name="Default" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="no-wrap" fo:border="none" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+ </office:styles>
+ <office:automatic-styles>
+  <style:style style:name="co1" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.902cm"/>
+  </style:style>
+  <style:style style:name="co2" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.21cm"/>
+  </style:style>
+  <style:style style:name="co3" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="3.489cm"/>
+  </style:style>
+  <style:style style:name="co4" style:family="table-column">
+   <style:table-column-properties fo:break-before="auto" style:column-width="2.108cm"/>
+  </style:style>
+  <style:style style:name="ro1" style:family="table-row">
+   <style:table-row-properties style:row-height="0.526cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro2" style:family="table-row">
+   <style:table-row-properties style:row-height="0.512cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro3" style:family="table-row">
+   <style:table-row-properties style:row-height="0.499cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro4" style:family="table-row">
+   <style:table-row-properties style:row-height="0.947cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro5" style:family="table-row">
+   <style:table-row-properties style:row-height="0.512cm" fo:break-before="auto" style:use-optimal-row-height="false"/>
+  </style:style>
+  <style:style style:name="ro6" style:family="table-row">
+   <style:table-row-properties style:row-height="0.469cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro7" style:family="table-row">
+   <style:table-row-properties style:row-height="0.427cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ro8" style:family="table-row">
+   <style:table-row-properties style:row-height="0.452cm" fo:break-before="auto" style:use-optimal-row-height="true"/>
+  </style:style>
+  <style:style style:name="ta1" style:family="table" style:master-page-name="PageStyle_5f_Arkusz1">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="ta2" style:family="table" style:master-page-name="PageStyle_5f_Arkusz2">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="ta3" style:family="table" style:master-page-name="PageStyle_5f_Arkusz3">
+   <style:table-properties table:display="true" style:writing-mode="lr-tb"/>
+  </style:style>
+  <style:style style:name="ce1" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="no-wrap" fo:border="none" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce10" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce11" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce12" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce13" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" fo:border="2.49pt solid #000000" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce14" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce15" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="2.49pt solid #000000" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce16" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce17" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="2.49pt solid #000000" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce18" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce19" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce2" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce20" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce21" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties style:text-position=""/>
+  </style:style>
+  <style:style style:name="ce3" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0.353cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce4" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce5" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border="2.49pt solid #000000" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce6" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce7" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="2.49pt solid #000000" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce8" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce9" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="2.49pt solid #000000" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce30" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="no-wrap" fo:border="none" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce31" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce32" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="0.353cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce33" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="no-wrap" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="automatic"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce34" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border="2.49pt solid #000000" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce35" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce36" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="2.49pt solid #000000" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce37" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce38" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="2.49pt solid #000000" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce39" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce40" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce41" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce42" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" fo:border="2.49pt solid #000000" style:direction="ltr" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce43" style:family="table-cell" style:parent-style-name="Excel_5f_BuiltIn_5f_Hyperlink" style:data-style-name="N0">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:cell-protect="protected" style:print-content="true" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:background-color="transparent" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:font-size-asian="11pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce44" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="2.49pt solid #000000" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce45" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce46" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="2.49pt solid #000000" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce47" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="none" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce48" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="none" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce49" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="fix" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:text-align="start" fo:margin-left="1.411cm" style:writing-mode="page"/>
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="ce50" style:family="table-cell" style:parent-style-name="Excel_20_Built-in_20_Normal">
+   <style:table-cell-properties style:glyph-orientation-vertical="0" fo:border-bottom="2.49pt solid #000000" style:diagonal-bl-tr="none" style:diagonal-tl-br="none" style:text-align-source="value-type" style:repeat-content="false" fo:wrap-option="wrap" fo:border-left="2.49pt solid #000000" style:direction="ltr" fo:border-right="2.49pt solid #000000" style:rotation-angle="0" style:rotation-align="none" style:shrink-to-fit="false" fo:border-top="none" style:vertical-align="top"/>
+   <style:paragraph-properties fo:margin-left="0cm" style:writing-mode="page"/>
+  </style:style>
+  <style:page-layout style:name="pm1">
+   <style:page-layout-properties style:first-page-number="continue" style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.751cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.751cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm2">
+   <style:page-layout-properties style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.751cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-bottom="0.25cm" fo:border="2.49pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.751cm" fo:margin-left="0cm" fo:margin-right="0cm" fo:margin-top="0.25cm" fo:border="2.49pt solid #000000" fo:padding="0.018cm" fo:background-color="#c0c0c0">
+     <style:background-image/>
+    </style:header-footer-properties>
+   </style:footer-style>
+  </style:page-layout>
+  <style:page-layout style:name="pm3">
+   <style:page-layout-properties fo:page-width="21.59cm" fo:page-height="27.94cm" style:num-format="1" style:print-orientation="portrait" fo:margin-top="1.905cm" fo:margin-bottom="1.905cm" fo:margin-left="1.778cm" fo:margin-right="1.778cm" style:first-page-number="continue" style:scale-to="100%" style:writing-mode="lr-tb"/>
+   <style:header-style>
+    <style:header-footer-properties fo:min-height="0.751cm" fo:margin-left="0.122cm" fo:margin-right="0.122cm" fo:margin-bottom="0cm"/>
+   </style:header-style>
+   <style:footer-style>
+    <style:header-footer-properties fo:min-height="0.751cm" fo:margin-left="0.122cm" fo:margin-right="0.122cm" fo:margin-top="0cm"/>
+   </style:footer-style>
+  </style:page-layout>
+  <style:style style:name="T1" style:family="text">
+   <style:text-properties fo:color="#0000ff" style:text-outline="false" style:text-line-through-style="none" style:font-name="Czcionka tekstu podstawowego" fo:font-size="11pt" fo:language="pl" fo:country="PL" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="solid" style:text-underline-width="auto" style:text-underline-color="font-color" fo:font-weight="normal" style:text-underline-mode="continuous" style:text-overline-mode="continuous" style:text-line-through-mode="continuous" style:font-name-asian="DejaVu Sans" style:font-size-asian="11pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Czcionka tekstu podstawowego" style:font-size-complex="11pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal" style:font-weight-complex="normal" style:text-emphasize="none" style:font-relief="none" style:text-overline-style="none" style:text-overline-color="font-color"/>
+  </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties fo:color="#000000" style:text-outline="false" style:text-line-through-style="none" style:text-position="0% 100%" style:font-name="Times New Roman" fo:font-size="12pt" fo:font-style="normal" fo:text-shadow="none" style:text-underline-style="none" fo:font-weight="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-weight-asian="normal" style:font-name-complex="Times New Roman" style:font-size-complex="12pt" style:font-style-complex="normal" style:font-weight-complex="normal"/>
+  </style:style>
+ </office:automatic-styles>
+ <office:master-styles>
+  <style:master-page style:name="Default" style:page-layout-name="pm1">
+   <style:header>
+    <text:p><text:sheet-name>???</text:sheet-name></text:p>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Strona <text:page-number>1</text:page-number></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="Report" style:page-layout-name="pm2">
+   <style:header>
+    <style:region-left>
+     <text:p><text:sheet-name>???</text:sheet-name> (<text:title>???</text:title>)</text:p>
+    </style:region-left>
+    <style:region-right>
+     <text:p><text:date style:data-style-name="N2" text:date-value="2013-11-13">00.00.0000</text:date>, <text:time>00:00:00</text:time></text:p>
+    </style:region-right>
+   </style:header>
+   <style:header-left style:display="false"/>
+   <style:footer>
+    <text:p>Strona <text:page-number>1</text:page-number> / <text:page-count>99</text:page-count></text:p>
+   </style:footer>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="PageStyle_5f_Arkusz1" style:display-name="PageStyle_Arkusz1" style:page-layout-name="pm3">
+   <style:header style:display="false"/>
+   <style:header-left style:display="false"/>
+   <style:footer style:display="false"/>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="PageStyle_5f_Arkusz2" style:display-name="PageStyle_Arkusz2" style:page-layout-name="pm3">
+   <style:header style:display="false"/>
+   <style:header-left style:display="false"/>
+   <style:footer style:display="false"/>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+  <style:master-page style:name="PageStyle_5f_Arkusz3" style:display-name="PageStyle_Arkusz3" style:page-layout-name="pm3">
+   <style:header style:display="false"/>
+   <style:header-left style:display="false"/>
+   <style:footer style:display="false"/>
+   <style:footer-left style:display="false"/>
+  </style:master-page>
+ </office:master-styles>
+ <office:body>
+  <office:spreadsheet>
+   <table:calculation-settings table:case-sensitive="false" table:automatic-find-labels="false" table:use-regular-expressions="false">
+    <table:iteration table:maximum-difference="0.0001"/>
+   </table:calculation-settings>
+   <table:table table:name="Arkusz1" table:style-name="ta1" table:print="false">
+    <office:forms form:automatic-focus="false" form:apply-design-mode="false"/>
+    <table:table-column table:style-name="co1" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co2" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co3" table:default-cell-style-name="Default"/>
+    <table:table-column table:style-name="co4" table:number-columns-repeated="1021" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce30" office:value-type="string">
+      <text:p><text:span text:style-name="T1"><text:a xlink:href="http://www.example.com/">hyperlink example</text:a></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce31" office:value-type="string">
+      <text:p>Some text</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce31" office:value-type="string">
+      <text:p>List:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce32" office:value-type="string">
+      <text:p>1. first</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce32" office:value-type="string">
+      <text:p>2. second</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce32" office:value-type="string">
+      <text:p>3. third</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce31" office:value-type="string">
+      <text:p>Other list:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:style-name="ce33" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">one</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:style-name="ce33" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">two</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro3">
+     <table:table-cell table:style-name="ce33" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">three</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce31" office:value-type="string">
+      <text:p>table:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="11">
+      <text:p>11</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="12">
+      <text:p>12</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce46" office:value-type="float" office:value="13">
+      <text:p>13</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="14">
+      <text:p>14</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="253"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce35" office:value-type="float" office:value="21">
+      <text:p>21</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" office:value-type="float" office:value="22">
+      <text:p>22</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce47" office:value-type="float" office:value="23">
+      <text:p>23</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce35" office:value-type="float" office:value="24">
+      <text:p>24</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="253"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="31">
+      <text:p>31</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="32">
+      <text:p>32</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce46" office:value-type="float" office:value="33">
+      <text:p>33</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="34">
+      <text:p>34</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="253"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="41">
+      <text:p>41</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="42">
+      <text:p>42</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce46" office:value-type="float" office:value="43">
+      <text:p>43</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="float" office:value="44">
+      <text:p>44</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="253"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce31" office:value-type="string">
+      <text:p>Table with hyperlinks:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce36" office:value-type="string">
+      <text:p><text:span text:style-name="T1"><text:a xlink:href="http://www.first.com/">first</text:a></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce42" office:value-type="string">
+      <text:p><text:span text:style-name="T1"><text:a xlink:href="http://www.second.com/">second</text:a></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="255"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce37" office:value-type="string">
+      <text:p><text:span text:style-name="T1"><text:a xlink:href="http://www.third.com/">third</text:a></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce43" office:value-type="string">
+      <text:p><text:span text:style-name="T1"><text:a xlink:href="http://www.fourth.com/">fourth</text:a></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="255"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce31" office:value-type="string">
+      <text:p>Tabela with lists:</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce38" office:value-type="string">
+      <text:p>first</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce44" office:value-type="string">
+      <text:p>second</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce38" office:value-type="string">
+      <text:p>third</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce39" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">one</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce39" office:value-type="string">
+      <text:p>1.<text:tab/>one</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce48" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">one</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce39" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">two</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce39" office:value-type="string">
+      <text:p>2.<text:tab/>two</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce48" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">two</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro4">
+     <table:table-cell table:style-name="ce40" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">three</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce40" office:value-type="string">
+      <text:p>3.<text:tab/>three</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce49" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">three</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce41" office:value-type="string">
+      <text:p>fourth</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce45" office:value-type="string">
+      <text:p>fiveth</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce41" office:value-type="string">
+      <text:p>sixth</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce39" office:value-type="string">
+      <text:p>1.<text:tab/>one</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce39" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">one</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce48" office:value-type="string">
+      <text:p>1.<text:tab/>one</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce39" office:value-type="string">
+      <text:p>2.<text:tab/>two</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce39" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">two</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce48" office:value-type="string">
+      <text:p>2.<text:tab/>two</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce40" office:value-type="string">
+      <text:p>3.<text:tab/>three</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce40" office:value-type="string">
+      <text:p>●<text:span text:style-name="T2"><text:tab/></text:span><text:span text:style-name="T2">three</text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce50"/>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro5">
+     <table:table-cell table:style-name="ce34" office:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="5">
+      <text:p>seventh</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce34" office:value-type="string" table:number-columns-spanned="1" table:number-rows-spanned="5">
+      <text:p>eighth</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="ce41" office:value-type="string">
+      <text:p>nineth</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce34"/>
+     <table:table-cell table:style-name="ce48" office:value-type="string">
+      <text:p>1.<text:tab/>one</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce34"/>
+     <table:table-cell table:style-name="ce48" office:value-type="string">
+      <text:p>2.<text:tab/>two</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce34"/>
+     <table:table-cell table:style-name="ce48" office:value-type="string">
+      <text:p>3.<text:tab/>three</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:covered-table-cell table:number-columns-repeated="2" table:style-name="ce34"/>
+     <table:table-cell table:style-name="ce49" office:value-type="string">
+      <text:p>4.<text:tab/>four</text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="254"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro2">
+     <table:table-cell table:style-name="ce31"/>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro1">
+     <table:table-cell table:style-name="ce30" office:value-type="string">
+      <text:p><text:span text:style-name="T1"><text:a xlink:href="mailto:email@example.com">email example</text:a></text:span></text:p>
+     </table:table-cell>
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="256"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6" table:number-rows-repeated="65502">
+     <table:table-cell table:style-name="Excel_20_Built-in_20_Normal" table:number-columns-repeated="257"/>
+     <table:table-cell table:number-columns-repeated="767"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro7" table:number-rows-repeated="983039">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro7">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Arkusz2" table:style-name="ta2" table:print="false">
+    <table:table-column table:style-name="co4" table:number-columns-repeated="257" table:default-cell-style-name="Excel_20_Built-in_20_Normal"/>
+    <table:table-column table:style-name="co4" table:number-columns-repeated="767" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro6" table:number-rows-repeated="65535">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+   </table:table>
+   <table:table table:name="Arkusz3" table:style-name="ta3" table:print="false">
+    <table:table-column table:style-name="co4" table:number-columns-repeated="257" table:default-cell-style-name="Excel_20_Built-in_20_Normal"/>
+    <table:table-column table:style-name="co4" table:number-columns-repeated="767" table:default-cell-style-name="Default"/>
+    <table:table-row table:style-name="ro6" table:number-rows-repeated="65535">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+    <table:table-row table:style-name="ro6">
+     <table:table-cell table:number-columns-repeated="1024"/>
+    </table:table-row>
+   </table:table>
+   <table:named-expressions/>
+  </office:spreadsheet>
+ </office:body>
+</office:document>

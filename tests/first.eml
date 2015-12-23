@@ -1,0 +1,795 @@
+Delivered-To: alicja.cc@gmail.com
+Received: by 10.112.26.201 with SMTP id n9csp57554lbg;
+        Wed, 2 Oct 2013 11:16:41 -0700 (PDT)
+X-Received: by 10.236.26.164 with SMTP id c24mr1918532yha.85.1380737801022;
+        Wed, 02 Oct 2013 11:16:41 -0700 (PDT)
+Return-Path: <bounce-mc.us4_7462861.566581-alicja.cc=gmail.com@mail175.wdc02.mcdlv.net>
+Received: from mail175.wdc02.mcdlv.net (mail175.wdc02.mcdlv.net. [205.201.130.175])
+        by mx.google.com with ESMTP id p49si1025475yho.355.1969.12.31.16.00.00;
+        Wed, 02 Oct 2013 11:16:41 -0700 (PDT)
+Received-SPF: pass (google.com: domain of bounce-mc.us4_7462861.566581-alicja.cc=gmail.com@mail175.wdc02.mcdlv.net designates 205.201.130.175 as permitted sender) client-ip=205.201.130.175;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of bounce-mc.us4_7462861.566581-alicja.cc=gmail.com@mail175.wdc02.mcdlv.net designates 205.201.130.175 as permitted sender) smtp.mail=bounce-mc.us4_7462861.566581-alicja.cc=gmail.com@mail175.wdc02.mcdlv.net;
+       dkim=pass header.i=marketing=3Dcodility.com@mail175.wdc02.mcdlv.net
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail175.wdc02.mcdlv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=marketing=3Dcodility.com@mail175.wdc02.mcdlv.net;
+ bh=XE/wKGDTGl91ZNle6O3WZr65O1U=;
+ b=0zJdOdgAtWdb6895g4St4u/EWQ25CsznDHTk/8TqThT/7PiTTFpqS0iIZ7CrI0rLGec2NninLOyN
+   Dyz8krBSw27TLoPVQ4hQdVPULr2znWpyiX7H1YjqR2nB3rbAgzfyAAc/V8nCIo3ZwDflRLDcbBXy
+   WGeP9SscIW/PkeiQdu4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail175.wdc02.mcdlv.net;
+ b=HfiFKESdK4aEgsIIRXCYjXVOBchqBVjX7yeJk3osJQZjHzrCCAAZhncCql0Duutd07KW+L1JUO+T
+   fgPtsE9ZRAmpPU88F833KUKTp04reIT548N1zMbyQN8HZ9wo2Buzqz3/r9jyiGw/cGIjJGtrjsYk
+   EFNYEz0CZSOAQ1UUeMs=;
+Received: from (127.0.0.1) by mail175.wdc02.mcdlv.net id h9hhgg1jvmgj for <alicja.cc@gmail.com>; Wed, 2 Oct 2013 18:07:10 +0000 (envelope-from <bounce-mc.us4_7462861.566581-alicja.cc=gmail.com@mail175.wdc02.mcdlv.net>)
+Subject: =?utf-8?Q?Join=20the=20new=20Codility=20challenge=21?=
+From: =?utf-8?Q?Codility?= <marketing@codility.com>
+Reply-To: =?utf-8?Q?Codility?= <marketing@codility.com>
+To: =?utf-8?Q??= <alicja.cc@gmail.com>
+Date: Wed, 2 Oct 2013 18:07:10 +0000
+Message-ID: <d9d4fdf4d725a0f17d56440e52c14d9c463.20131002180634@mail175.wdc02.mcdlv.net>
+X-Mailer: MailChimp Mailer - **CID211de2fff12c14d9c463**
+X-Campaign: mailchimpd9d4fdf4d725a0f17d56440e5.211de2fff1
+X-campaignid: mailchimpd9d4fdf4d725a0f17d56440e5.211de2fff1
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=d9d4fdf4d725a0f17d56440e5&id=211de2fff1&e=2c14d9c463
+X-MC-User: d9d4fdf4d725a0f17d56440e5
+x-accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-d9d4fdf4d725a0f17d56440e5-211de2fff1-2c14d9c463@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://codility.us4.list-manage.com/unsubscribe?u=d9d4fdf4d725a0f17d56440e5&id=e55d0c8403&e=2c14d9c463&c=211de2fff1>
+Sender: "Codility" <marketing=codility.com@mail175.wdc02.mcdlv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_886952504"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_886952504
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+Great that you are ready to accept a Codility challenge!
+------------------------------------------------------------
+http://us4.campaign-archive2.com/?u=3Dd9d4fdf4d725a0f17d56440e5&id=3D211de=
+2fff1&e=3D2c14d9c463
+https://codility.com/
+Friend on Facebook (http://www.facebook.com/codility)
+Follow on Twitter (http://www.twitter.com/codility)
+Forward to a Friend (http://us4.forward-to-friend.com/forward?u=3Dd9d4fdf4=
+d725a0f17d56440e5&id=3D211de2fff1&e=3D2c14d9c463)
+New programming lessons available!
+
+Jacek has added three lessons to our free guided programming course. Topic=
+s: time complexity. counting elements and prefix sums. Each lesson comes w=
+ith three programming tasks to solve. Check them out! (http://codility.com=
+/train/)
+
+
+** Get the Codility Golden Award!
+------------------------------------------------------------
+This Friday=2C October 4th at 4pm UTC our new programming challenge - Codi=
+lity Boron 2013 - will go live.
+
+If you are the first one to deliver the perfect solution=2C a signed Golde=
+n Award=2C the Champion's T-Shirt and the great "Looking for a Challenge?=
+ (http://www.lookingforachallengethebook.com/) " book will be on their way=
+ to you soon. Also=2C we will be happy to add your name to the growing hal=
+l of fame=2C just next to Chenyang Wu=2C Denis Yudin and Xiongjun Liang=2C=
+ who came in first=2C second and third in our previous challenge.
+
+NEW: Everyone submitting a solution to the challenge will have access to a=
+ Codility report assessing it. Let us know if you find this helpful!
+
+Access the challenge: http://codility.com/cert/start/boron2013/
+If you want to train first: http://codility.com/train
+
+Best of luck to you all and enjoy the challenge!
+
+Your Codility Team
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+Copyright =C2=A9 2013 Codility=2C All rights reserved.
+ You are receiving this email because you opted in at our website that you=
+ would like to get monthly newsletter with information about new Certifica=
+tion Challenge
+Our mailing address is:
+Codility
+107 Cheapside
+London=2C London EC2V 6DN
+United Kingdom
+
+Copyright =C2=A9 2013 Codility=2C All rights reserved.
+ You are receiving this email because you opted in at our website that you=
+ would like to get monthly newsletter with information about new Certifica=
+tion Challenge
+Our mailing address is:
+Codility
+107 Cheapside
+London=2C London EC2V 6DN
+United Kingdom
+Copyright =C2=A9 2013 Codility=2C All rights reserved.
+ You are receiving this email because you opted in at our website that you=
+ would like to get monthly newsletter with information about new Certifica=
+tion Challenge
+Our mailing address is:
+Codility
+107 Cheapside
+London=2C London EC2V 6DN
+United Kingdom
+** follow on Twitter (https://www.twitter.com/codility/
+
+)
+** friend on Facebook (#
+
+)
+** forward to a friend (http://us4.forward-to-friend.com/forward?u=3Dd9d4f=
+df4d725a0f17d56440e5&id=3D211de2fff1&e=3D2c14d9c463)
+** unsubscribe from this list (http://codility.us4.list-manage.com/unsubsc=
+ribe?u=3Dd9d4fdf4d725a0f17d56440e5&id=3De55d0c8403&e=3D2c14d9c463&c=3D211de2=
+fff1)
+** update subscription preferences (http://codility.us4.list-manage1.com/p=
+rofile?u=3Dd9d4fdf4d725a0f17d56440e5&id=3De55d0c8403&e=3D2c14d9c463)
+--_----------=_MCPart_886952504
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3D=
+UTF-8">
+
+        <!-- Facebook sharing information tags -->
+        <meta property=3D"og:title" content=3D"Join the new Codility chall=
+enge!">
+
+        <title>Join the new Codility challenge!</title>
+=09=09
+=09<style type=3D"text/css">
+=09=09#outlook a{
+=09=09=09padding:0;
+=09=09}
+=09=09body{
+=09=09=09width:100% !important;
+=09=09}
+=09=09.ReadMsgBody{
+=09=09=09width:100%;
+=09=09}
+=09=09.ExternalClass{
+=09=09=09width:100%;
+=09=09}
+=09=09body{
+=09=09=09-webkit-text-size-adjust:none;
+=09=09}
+=09=09body{
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09}
+=09=09img{
+=09=09=09border:0;
+=09=09=09height:auto;
+=09=09=09line-height:100%;
+=09=09=09outline:none;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09table td{
+=09=09=09border-collapse:collapse;
+=09=09}
+=09=09#backgroundTable{
+=09=09=09height:100% !important;
+=09=09=09margin:0;
+=09=09=09padding:0;
+=09=09=09width:100% !important;
+=09=09}
+=09=09body=2C#backgroundTable{
+=09=09=09background-color:#FAFAFA;
+=09=09}
+=09=09#templateContainer{
+=09=09=09border:1px solid #DDDDDD;
+=09=09}
+=09=09h1=2C.h1{
+=09=09=09color:#202020;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:24px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:10px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h2=2C.h2{
+=09=09=09color:#202020;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:20px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:10px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h3=2C.h3{
+=09=09=09color:#202020;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:26px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:10px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09h4=2C.h4{
+=09=09=09color:#202020;
+=09=09=09display:block;
+=09=09=09font-family:Arial;
+=09=09=09font-size:32px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09margin-top:0;
+=09=09=09margin-right:0;
+=09=09=09margin-bottom:10px;
+=09=09=09margin-left:0;
+=09=09=09text-align:left;
+=09=09}
+=09=09#templatePreheader{
+=09=09=09background-color:#FAFAFA;
+=09=09}
+=09=09.preheaderContent div{
+=09=09=09color:#505050;
+=09=09=09font-family:Arial;
+=09=09=09font-size:10px;
+=09=09=09line-height:100%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.preheaderContent div a:link=2C.preheaderContent div a:visited=2C.pr=
+eheaderContent div a .yshortcuts {
+=09=09=09color:#336699;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#templateHeader{
+=09=09=09background-color:#000000;
+=09=09=09border-bottom:0;
+=09=09=09padding:0px;
+=09=09}
+=09=09.headerContent{
+=09=09=09color:#202020;
+=09=09=09font-family:Arial;
+=09=09=09font-size:34px;
+=09=09=09font-weight:bold;
+=09=09=09line-height:100%;
+=09=09=09padding:0;
+=09=09=09text-align:center;
+=09=09=09vertical-align:middle;
+=09=09}
+=09=09.headerContent a:link=2C.headerContent a:visited=2C.headerContent a=
+ .yshortcuts {
+=09=09=09color:#336699;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09#headerImage{
+=09=09=09height:auto;
+=09=09=09max-width:600px;
+=09=09}
+=09=09#templateContainer=2C.bodyContent{
+=09=09=09background-color:#FFFFFF;
+=09=09}
+=09=09.bodyContent div{
+=09=09=09color:#505050;
+=09=09=09font-family:Arial;
+=09=09=09font-size:14px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.bodyContent div a:link=2C.bodyContent div a:visited=2C.bodyContent=
+ div a .yshortcuts {
+=09=09=09color:#336699;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.bodyContent img{
+=09=09=09display:inline;
+=09=09=09height:auto;
+=09=09}
+=09=09#templateSidebar{
+=09=09=09background-color:#FFFFFF;
+=09=09=09border-right:0;
+=09=09}
+=09=09.sidebarContent div{
+=09=09=09color:#505050;
+=09=09=09font-family:Arial;
+=09=09=09font-size:14px;
+=09=09=09line-height:150%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.sidebarContent div a:link=2C.sidebarContent div a:visited=2C.sideba=
+rContent div a .yshortcuts {
+=09=09=09color:#336699;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.sidebarContent img{
+=09=09=09display:inline;
+=09=09=09height:auto;
+=09=09}
+=09=09#templateFooter{
+=09=09=09background-color:#DDDDDD;
+=09=09=09border-top:0;
+=09=09}
+=09=09.footerContent div{
+=09=09=09color:#000000;
+=09=09=09font-family:Arial;
+=09=09=09font-size:12px;
+=09=09=09line-height:125%;
+=09=09=09text-align:left;
+=09=09}
+=09=09.footerContent div a:link=2C.footerContent div a:visited=2C.footerCo=
+ntent div a .yshortcuts {
+=09=09=09color:#336699;
+=09=09=09font-weight:normal;
+=09=09=09text-decoration:underline;
+=09=09}
+=09=09.footerContent img{
+=09=09=09display:inline;
+=09=09}
+=09=09#social{
+=09=09=09background-color:#DDDDDD;
+=09=09=09border:0;
+=09=09}
+=09=09#social div{
+=09=09=09text-align:center;
+=09=09}
+=09=09#utility{
+=09=09=09background-color:#DDDDDD;
+=09=09=09border:0;
+=09=09}
+=09=09#utility div{
+=09=09=09text-align:center;
+=09=09}
+=09=09#monkeyRewards img{
+=09=09=09max-width:190px;
+=09=09}
+=09=09.headerContent a{
+=09=09=09color:#0066CC;
+=09=09=09text-decoration:none;
+=09=09}
+=09=09.bodyContent div a:link=2C.bodyContent div a:visited=2C.bodyContent=
+ div a .yshortcuts{
+=09=09=09text-decoration:none;
+=09=09=09font-weight:normal;
+=09=09}
+</style></head>
+    <body leftmargin=3D"0" marginwidth=3D"0" topmargin=3D"0" marginheight=
+=3D"0" offset=3D"0" style=3D"-webkit-text-size-adjust: none;margin: 0;padd=
+ing: 0;background-color: #FAFAFA;width: 100% !important;">
+    =09<center>
+        =09<table border=3D"0" cellpadding=3D"0" cellspacing=3D"0" height=
+=3D"100%" width=3D"100%" id=3D"backgroundTable" style=3D"margin: 0;padding=
+: 0;background-color: #FAFAFA;height: 100% !important;width: 100% !importa=
+nt;">
+            =09<tr>
+                =09<td align=3D"center" valign=3D"top" style=3D"border-col=
+lapse: collapse;">
+                        <!-- // Begin Template Preheader \\ -->
+                        <table border=3D"0" cellpadding=3D"10" cellspacing=
+=3D"0" width=3D"600" id=3D"templatePreheader" style=3D"background-color: #=
+FAFAFA;">
+                            <tr>
+                                <td valign=3D"top" class=3D"preheaderConte=
+nt" style=3D"border-collapse: collapse;">
+
+                                =09<!-- // Begin Module: Standard Preheade=
+r \ -->
+                                    <table border=3D"0" cellpadding=3D"10"=
+ cellspacing=3D"0" width=3D"100%">
+                                    =09<tr>
+                                        =09<td valign=3D"top" style=3D"bor=
+der-collapse: collapse;">
+                                            =09<div style=3D"color: #50505=
+0;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left;">=
+Great that you are ready to accept a Codility challenge!</div>
+                                            </td>
+                                            <!--
+ -->
+=09=09=09=09=09=09=09=09=09=09=09<td valign=3D"top" width=3D"190" style=3D=
+"border-collapse: collapse;">
+                                            =09<div style=3D"color: #50505=
+0;font-family: Arial;font-size: 10px;line-height: 100%;text-align: left;">
+                                                =09Is this email not displ=
+aying correctly?<br><a href=3D"http://us4.campaign-archive2.com/?u=3Dd9d4f=
+df4d725a0f17d56440e5&id=3D211de2fff1&e=3D2c14d9c463" target=3D"_blank" style=
+=3D"color: #336699;font-weight: normal;text-decoration: underline;">View i=
+t in your browser</a>.
+                                                </div>
+                                            </td>
+=09=09=09=09=09=09=09=09=09=09=09<!--
+ -->
+                                        </tr>
+                                    </table>
+                                =09<!-- // End Module: Standard Preheader=
+ \ -->
+
+                                </td>
+                            </tr>
+                        </table>
+                        <!-- // End Template Preheader \\ -->
+                    =09<table border=3D"0" cellpadding=3D"0" cellspacing=
+=3D"0" width=3D"600" id=3D"templateContainer" style=3D"border: 1px solid #=
+DDDDDD;background-color: #FFFFFF;">
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"border-collapse: collapse;">
+                                    <!-- // Begin Template Header \\ -->
+                                =09<table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"600" id=3D"templateHeader" style=3D"background-c=
+olor: #000000;border-bottom: 0;padding: 0px;">
+                                        <tr>
+                                            <td class=3D"headerContent" st=
+yle=3D"border-collapse: collapse;color: #202020;font-family: Arial;font-si=
+ze: 34px;font-weight: bold;line-height: 100%;padding: 0;text-align: center=
+;vertical-align: middle;">
+
+                                            =09<!-- // Begin Module: Stand=
+ard Header Image \\ -->
+                                            =09<a href=3D"http://codility.=
+us4.list-manage.com/track/click?u=3Dd9d4fdf4d725a0f17d56440e5&id=3Dacba1c1=
+5f5&e=3D2c14d9c463" style=3D"color: #336699;text-decoration: underline;fo=
+nt-weight: normal;"><img src=3D"http://gallery.mailchimp.com/d9d4fdf4d725a=
+0f17d56440e5/images/Banner.png" alt=3D"Codility Certificate" border=3D"0"=
+ style=3D"border: px none;border-color: ;border-style: none;border-width:=
+ px;height: 250px;width: 600px;margin: 0;padding: 0;max-width: 600px;line-=
+height: 100%;outline: none;text-decoration: none;" width=3D"600" height=3D=
+"250" id=3D"headerImage campaign-icon"></a>
+                                            =09<!-- // End Module: Standar=
+d Header Image \\ -->
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Header \\ -->
+                                </td>
+                            </tr>
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"border-collapse: collapse;">
+                                    <!-- // Begin Template Body \\ -->
+                                =09<table border=3D"0" cellpadding=3D"0" c=
+ellspacing=3D"0" width=3D"600" id=3D"templateBody">
+                                    =09<tr>
+                                        =09<!-- // Begin Sidebar \\  -->
+                                        =09<td valign=3D"top" width=3D"200=
+" id=3D"templateSidebar" style=3D"border-collapse: collapse;background-col=
+or: #FFFFFF;border-right: 0;">
+                                            =09<table border=3D"0" cellpad=
+ding=3D"0" cellspacing=3D"0" width=3D"200">
+                                                =09<tr>
+                                                    =09<td valign=3D"top"=
+ class=3D"sidebarContent" style=3D"border-collapse: collapse;">
+
+                                                            <!-- // Begin=
+ Module: Social Block with Icons \\ -->
+                                                            <table border=
+=3D"0" cellpadding=3D"0" cellspacing=3D"0" width=3D"100%">
+                                                                <tr>
+                                                                    <td va=
+lign=3D"top" style=3D"padding-top: 20px;padding-right: 20px;padding-left:=
+ 20px;border-collapse: collapse;">
+                                                                        <t=
+able border=3D"0" cellpadding=3D"0" cellspacing=3D"4">
+                                                                         =
+   <tr mc:hideable=3D"hideable_1" mchideable=3D"hideable_1">
+                                                                         =
+       <td align=3D"left" valign=3D"middle" width=3D"24" style=3D"padding-=
+bottom: 5px;border-collapse: collapse;">
+                                                                         =
+           <img src=3D"http://cdn-images.mailchimp.com/icons/social-block/=
+color-facebook-128.png" width=3D"24" style=3D"height: auto !important;marg=
+in: 0 !important;border: 0;line-height: 100%;outline: none;text-decoration=
+: none;display: inline;">
+                                                                         =
+       </td>
+                                                                         =
+       <td align=3D"left" valign=3D"middle" style=3D"padding-bottom: 5px;b=
+order-collapse: collapse;">
+                                                                         =
+           <div style=3D"color: #505050;font-family: Arial;font-size: 14px=
+;line-height: 150%;text-align: left;"><span style=3D"font-size:12px;"><a h=
+ref=3D"http://codility.us4.list-manage2.com/track/click?u=3Dd9d4fdf4d725a0=
+f17d56440e5&id=3Dbcdb9b83ce&e=3D2c14d9c463" target=3D"_blank" style=3D"co=
+lor: #336699;font-weight: normal;text-decoration: underline;">Friend on Fa=
+cebook</a></span> </div>
+                                                                         =
+       </td>
+                                                                         =
+   </tr>
+                                                                         =
+   <tr mc:hideable=3D"hideable_2" mchideable=3D"hideable_2">
+                                                                         =
+       <td align=3D"left" valign=3D"middle" width=3D"24" style=3D"padding-=
+bottom: 5px;border-collapse: collapse;">
+                                                                         =
+           <img src=3D"http://cdn-images.mailchimp.com/icons/social-block/=
+color-twitter-128.png" width=3D"24" style=3D"height: auto !important;margi=
+n: 0 !important;border: 0;line-height: 100%;outline: none;text-decoration:=
+ none;display: inline;">
+                                                                         =
+       </td>
+                                                                         =
+       <td align=3D"left" valign=3D"middle" style=3D"padding-bottom: 5px;b=
+order-collapse: collapse;">
+                                                                         =
+           <div style=3D"color: #505050;font-family: Arial;font-size: 14px=
+;line-height: 150%;text-align: left;"><span style=3D"font-size:12px;"><a h=
+ref=3D"http://codility.us4.list-manage.com/track/click?u=3Dd9d4fdf4d725a0f=
+17d56440e5&id=3Dc5c2f67def&e=3D2c14d9c463" target=3D"_blank" style=3D"col=
+or: #336699;font-weight: normal;text-decoration: underline;">Follow on Twi=
+tter</a></span> </div>
+                                                                         =
+       </td>
+                                                                         =
+   </tr>
+                                                                         =
+   <tr mc:hideable=3D"hideable_3" mchideable=3D"hideable_3">
+                                                                         =
+       <td align=3D"left" valign=3D"middle" width=3D"24" style=3D"padding-=
+bottom: 5px;border-collapse: collapse;">
+                                                                         =
+           <img src=3D"http://cdn-images.mailchimp.com/icons/social-block/=
+color-forwardtofriend-128.png" width=3D"24" style=3D"height: auto !importa=
+nt;margin: 0 !important;border: 0;line-height: 100%;outline: none;text-dec=
+oration: none;display: inline;">
+                                                                         =
+       </td>
+                                                                         =
+       <td align=3D"left" valign=3D"middle" style=3D"padding-bottom: 5px;b=
+order-collapse: collapse;">
+                                                                         =
+           <div style=3D"color: #505050;font-family: Arial;font-size: 14px=
+;line-height: 150%;text-align: left;"><span style=3D"font-size:12px;"><a h=
+ref=3D"http://us4.forward-to-friend.com/forward?u=3Dd9d4fdf4d725a0f17d5644=
+0e5&id=3D211de2fff1&e=3D2c14d9c463" style=3D"color: #336699;font-weight: nor=
+mal;text-decoration: underline;">Forward to a Friend</a></span> </div>
+                                                                         =
+       </td>
+                                                                         =
+   </tr>
+                                                                        </=
+table>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- // End Mo=
+dule: Social Block with Icons \\ -->
+
+                                                            <!-- // Begin=
+ Module: Top Image with Content \\ -->
+                                                            <table border=
+=3D"0" cellpadding=3D"20" cellspacing=3D"0" width=3D"100%">
+                                                                <tr mc:rep=
+eatable=3D"repeat_1" mc:repeatindex=3D"0" mc:hideable=3D"hideable_repeat_1=
+_1" mchideable=3D"hideable_repeat_1_1">
+                                                                    <td va=
+lign=3D"top" style=3D"border-collapse: collapse;">
+                                                                        <i=
+mg src=3D"http://gallery.mailchimp.com/d9d4fdf4d725a0f17d56440e5/images/Co=
+dility_290x290.png" alt=3D"" border=3D"0" style=3D"border: px none;border-=
+color: ;border-style: none;border-width: px;height: 160px;width: 160px;mar=
+gin: 0;padding: 0;max-width: 160px;line-height: 100%;outline: none;text-de=
+coration: none;display: inline;" width=3D"160" height=3D"160">
+                                                                        <d=
+iv style=3D"color: #505050;font-family: Arial;font-size: 14px;line-height:=
+ 150%;text-align: left;"><span style=3D"font-size: 11px;"><strong>New prog=
+ramming lessons available!&nbsp;</strong><br>
+<br>
+Jacek has added three lessons to our free guided programming course. Topic=
+s: time complexity. counting elements and prefix sums. Each lesson comes w=
+ith three programming tasks to solve. <a href=3D"http://codility.us4.list-=
+manage1.com/track/click?u=3Dd9d4fdf4d725a0f17d56440e5&id=3D808783ae20&e=3D=
+2c14d9c463" target=3D"_self" style=3D"color: #336699;font-weight: normal;=
+text-decoration: underline;">Check them out!</a></span><br>
+</div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- // End Mo=
+dule: Top Image with Content \\ -->
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                            <!-- // End Sidebar \\ -->
+                                        =09<td valign=3D"top" style=3D"bor=
+der-collapse: collapse;">
+                                                <table border=3D"0" cellpa=
+dding=3D"0" cellspacing=3D"0">
+                                                    <tr>
+                                                        <td valign=3D"top"=
+ class=3D"bodyContent" style=3D"border-collapse: collapse;background-color=
+: #FFFFFF;">
+
+                                                            <!-- // Begin=
+ Module: Standard Content \\ -->
+                                                            <table border=
+=3D"0" cellpadding=3D"20" cellspacing=3D"0" width=3D"100%">
+                                                                <tr>
+                                                                    <td va=
+lign=3D"top" style=3D"border-collapse: collapse;">
+=09=09=09                                                            <div=
+ style=3D"color: #505050;font-family: Arial;font-size: 14px;line-height: 1=
+50%;text-align: left;"><h2 style=3D"color: #202020;display: block;font-fam=
+ily: Arial;font-size: 20px;font-weight: bold;line-height: 100%;margin-top:=
+ 0;margin-right: 0;margin-bottom: 10px;margin-left: 0;text-align: left;">
+=09<font size=3D"5">Get the Codility Golden Award</font></h2>
+<br>
+This<strong> Friday=2C October 4th at 4pm UTC</strong> our new programming=
+ challenge - Codility Boron 2013 - will go live.&nbsp;<br>
+<br>
+I<span style=3D"font-family: arial=2C 'helvetica neue'=2C helvetica=2C san=
+s-serif;">f you are the first one to deliver the perfect solution=2C&nbsp;=
+</span>a signed Golden Award=2C the Champion&#39;s T-Shirt and the great &=
+quot;<a href=3D"http://codility.us4.list-manage.com/track/click?u=3Dd9d4fd=
+f4d725a0f17d56440e5&id=3D7205f86724&e=3D2c14d9c463" target=3D"_self" styl=
+e=3D"color: #336699;font-weight: normal;text-decoration: none;">Looking fo=
+r a Challenge?</a>&quot; book will be on their way to you soon. Also=2C we=
+ will be happy to add your name to the growing hall of fame=2C just next t=
+o Chenyang Wu=2C Denis Yudin and Xiongjun Liang=2C who came in first=2C se=
+cond and third in our previous challenge.&nbsp;<br>
+<br>
+<span style=3D"color:#ff0000;"><strong>NEW:&nbsp;</strong></span>Everyone=
+ submitting a solution to the challenge will have access to a Codility rep=
+ort assessing it. Let us know if you find this helpful!&nbsp;<br>
+<br>
+Access the challenge:&nbsp;<a href=3D"http://codility.us4.list-manage.com/=
+track/click?u=3Dd9d4fdf4d725a0f17d56440e5&id=3Dadf265fbb4&e=3D2c14d9c463"=
+ style=3D"color: #336699;font-weight: normal;text-decoration: none;"><span=
+ style=3D"color:#0000ff;">http://codility.com/cert/start/b</span></a><a hr=
+ef=3D"http://codility.us4.list-manage2.com/track/click?u=3Dd9d4fdf4d725a0f=
+17d56440e5&id=3Dd9ab0bb763&e=3D2c14d9c463" target=3D"_self" style=3D"colo=
+r: #336699;font-weight: normal;text-decoration: none;"><span style=3D"colo=
+r:#0000ff;">oron2013</span></a><br>
+If you want to train first:&nbsp;<a href=3D"http://codility.us4.list-manag=
+e1.com/track/click?u=3Dd9d4fdf4d725a0f17d56440e5&id=3Da51c0bead7&e=3D=
+2c14d9c463" style=3D"color: #336699;font-weight: normal;text-decoration: none;=
+"><span style=3D"color:#0000ff;">http://codility.com/train</span></a><br>
+<br>
+Best of luck to you all and enjoy the challenge!<br>
+<br>
+Your Codility Team<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            <!-- // End Mo=
+dule: Standard Content \\ -->
+
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Body \\ -->
+                                </td>
+                            </tr>
+                        =09<tr>
+                            =09<td align=3D"center" valign=3D"top" style=
+=3D"border-collapse: collapse;">
+                                    <!-- // Begin Template Footer \\ -->
+                                =09<table border=3D"0" cellpadding=3D"10"=
+ cellspacing=3D"0" width=3D"600" id=3D"templateFooter" style=3D"background=
+-color: #DDDDDD;border-top: 0;">
+                                    =09<tr>
+                                        =09<td valign=3D"top" class=3D"foo=
+terContent" style=3D"border-collapse: collapse;">
+
+                                                <!-- // Begin Module: Stan=
+dard Footer \\ -->
+                                                <table border=3D"0" cellpa=
+dding=3D"10" cellspacing=3D"0" width=3D"100%">
+                                                    <tr>
+                                                        <td colspan=3D"2"=
+ valign=3D"middle" id=3D"social" style=3D"border-collapse: collapse;backgr=
+ound-color: #DDDDDD;border: 0;">
+                                                            <div style=3D"=
+color: #000000;font-family: Arial;font-size: 12px;line-height: 125%;text-a=
+lign: center;">
+                                                                &nbsp;<a h=
+ref=3D"https://www.twitter.com/codility/" style=3D"color: #336699;font-wei=
+ght: normal;text-decoration: underline;">follow on Twitter</a> | <a href=
+=3D"#" style=3D"color: #336699;font-weight: normal;text-decoration: underl=
+ine;">friend on Facebook</a> | <a href=3D"http://us4.forward-to-friend.com=
+/forward?u=3Dd9d4fdf4d725a0f17d56440e5&id=3D211de2fff1&e=3D2c14d9c463" style=
+=3D"color: #336699;font-weight: normal;text-decoration: underline;">forwar=
+d to a friend</a>&nbsp;
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td valign=3D"top"=
+ width=3D"350" style=3D"border-collapse: collapse;">
+                                                            <div style=3D"=
+color: #000000;font-family: Arial;font-size: 12px;line-height: 125%;text-a=
+lign: left;"><span style=3D"font-family:arial=2Chelvetica=2Csans-serif;"><=
+span style=3D"font-size: 11px;"><em>Copyright &copy; 2013 Codility=2C All=
+ rights reserved.</em><br>
+ You are receiving this email because you opted in at our website that you=
+ would like to get monthly newsletter with information about new Certifica=
+tion Challenge<br>
+<strong>Our mailing address is:</strong><br>
+<div class=3D"vcard"><span class=3D"org fn">Codility</span><div class=3D"a=
+dr"><div class=3D"street-address">107 Cheapside</div><span class=3D"locali=
+ty">London</span>=2C <span class=3D"region">London</span>  <span class=3D"=
+postal-code">EC2V 6DN</span> <div class=3D"country-name">United Kingdom</d=
+iv><br><a href=3D"http://codility.us4.list-manage1.com/vcard?u=3Dd9d4fdf4d=
+725a0f17d56440e5&id=3De55d0c8403" class=3D"hcard-download">Add us to your=
+ address book</a></div>
+ </span></span></div>
+                                                        </td>
+                                                        <td valign=3D"top"=
+ width=3D"190" id=3D"monkeyRewards" style=3D"border-collapse: collapse;">
+                                                            <div style=3D"=
+color: #000000;font-family: Arial;font-size: 12px;line-height: 125%;text-a=
+lign: left;">
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td colspan=3D"2"=
+ valign=3D"middle" id=3D"utility" style=3D"border-collapse: collapse;backg=
+round-color: #DDDDDD;border: 0;">
+                                                            <div style=3D"=
+color: #000000;font-family: Arial;font-size: 12px;line-height: 125%;text-a=
+lign: center;">
+                                                                &nbsp;<a h=
+ref=3D"http://codility.us4.list-manage.com/unsubscribe?u=3Dd9d4fdf4d725a0f=
+17d56440e5&id=3De55d0c8403&e=3D2c14d9c463&c=3D211de2fff1" style=3D"color: #3=
+36699;font-weight: normal;text-decoration: underline;">unsubscribe from th=
+is list</a> | <a href=3D"http://codility.us4.list-manage1.com/profile?u=3D=
+d9d4fdf4d725a0f17d56440e5&id=3De55d0c8403&e=3D2c14d9c463" style=3D"color: #3=
+36699;font-weight: normal;text-decoration: underline;">update subscription=
+ preferences</a>&nbsp;
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <!-- // End Module: Standa=
+rd Footer \\ -->
+
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <!-- // End Template Footer \\ -->
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    <img src=3D"http://codility.us4.list-manage.com/track/open.php?u=3Dd9d=
+4fdf4d725a0f17d56440e5&id=3D211de2fff1&e=3D2c14d9c463" height=3D"1" width=
+=3D"1"></body>
+</html>
+--_----------=_MCPart_886952504--

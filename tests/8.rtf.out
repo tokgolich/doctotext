@@ -1,0 +1,66 @@
+<HYPERLINK "http://www.example.com/" >hyperlink example
+Some text
+List:
+1.	first
+2.	second
+3.	third
+Other list:
+●	one
+●	two
+●	three
+table:
+11
+12
+13
+14
+21
+22
+23
+24
+31
+32
+33
+34
+41
+42
+43
+44
+Table with hyperlinks:
+<HYPERLINK "http://www.first.com/" >first
+<HYPERLINK "http://www.second.com/" >second
+<HYPERLINK "http://www.third.com/" >third
+<HYPERLINK "http://www.fourth.com/" >fourth
+Tabela with lists:
+first
+●	one
+●	two
+●	three
+second
+1.	one
+2.	two
+3.	three
+third
+●	one
+●	two
+●	three
+fourth
+1.	one
+2.	two
+3.	three
+fiveth
+●	one
+●	two
+●	three
+sixth
+1.	one
+2.	two
+seventh
+eighth
+nineth
+1.	one
+2.	two
+3.	three
+4.	four
+
+<HYPERLINK "mailto:email@example.com" >email example
+

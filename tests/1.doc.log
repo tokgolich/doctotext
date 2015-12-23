@@ -1,0 +1,4 @@
+Using DOC parser.
+Opening 1.doc as OLE file to parse all embedded objects in supported formats.
+No ObjectPool found, embedded OLE objects probably do not exist.
+No annotations.
