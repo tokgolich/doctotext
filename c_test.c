@@ -48,7 +48,10 @@ int main(int argc, char* argv[])
 	doctotext_free_formatting_style(formatting);
 	doctotext_free_extractor_params(params);
 
-	printf("%s\n", doctotext_extracted_data_get_text(text_data));
+    const char *text = doctotext_extracted_data_get_text(text_data);
+    FILE *fp = fopen("output.txt", "wb");
+    fwrite(text, strlen(text), 1, fp);
+    fclose(fp);
 	size_t links_count = doctotext_extracted_data_get_links_count(text_data);
 	if (links_count > 0)
 	{
