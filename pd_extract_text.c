@@ -113,7 +113,6 @@ int main(int argc, char* argv[])
         text_data = doctotext_process_file(src, g_doctotext_params, &exception);
         if(exception)
         {
-            printf("exception\n");
             doctotext_free_exception(exception);
             exception = NULL;
             if(text_data)
@@ -121,11 +120,9 @@ int main(int argc, char* argv[])
                 doctotext_free_extracted_data(text_data);
             }
             
-            printf("next\n");
             goto next;
         }
         
-        printf("doctotext_extracted_data_get_text\n");
         if(text_data)
         {
             const char *text = doctotext_extracted_data_get_text(text_data);
@@ -134,11 +131,9 @@ int main(int argc, char* argv[])
             fwrite(text, strlen(text), 1, fpw);
             fclose(fpw);
             doctotext_free_extracted_data(text_data);
-            printf("\nuse doctotext\n");
             pd_extract_text_ok = 1;        
             goto exit;
         }
-        printf("next\n");
         goto next;
     }
     else
@@ -156,11 +151,9 @@ next:
     if(textract_typecmd)
     {
         snprintf(cmd, 1024, "textract -s %s -o \"%s\" \"%s\"", textract_typecmd, dst, src);
-        printf("cmd: %s\n", cmd);
         pp = popen(cmd, "r");
         if(pp == NULL)
         {
-            printf("popen failed\n");
             goto exit;
         }
         else
@@ -171,13 +164,11 @@ next:
                 {
                     pclose(pp);
                     pd_extract_text_ok = 1;
-                    printf("\nuse textract\n");
                     goto exit;
                 }
             }
         }
         pclose(pp);
-        printf("popen ended\n");
     }
     
 exit:
