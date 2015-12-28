@@ -159,6 +159,7 @@ install:
 
 uninstall:
 	rm -f /usr/local/bin/doctotext
+	rm -f /usr/local/bin/pd_extract_text
 	rm -f /usr/local/lib/libcharsetdetect.so
 	rm -f /usr/local/lib/libdoctotext.so
 	rm -f /usr/local/lib/libmimetic.so.0
@@ -167,11 +168,17 @@ uninstall:
 c_test:
 	gcc -o c_test c_test.c -ldoctotext
 
+pd_extract:
+	rm -f pd_extract_text
+	gcc -O2 -g -o pd_extract_text pd_extract_text.c -ldoctotext
+	cp pd_extract_text /usr/local/bin/
+
 clean:
 	rm -rf build
 	rm -f version.h
 	rm -rf doc/html
 	rm -f c_test
+	rm -f pd_extract_text
 	$(MAKE) -C 3rdparty clean
 	$(MAKE) -C src clean
 	#$(MAKE) -C tests clean
