@@ -44,6 +44,8 @@ else
 endif
 endif
 
+DEBUG = 0
+
 ifeq ($(DEBUG),1)
 override ARCH := $(ARCH)-debug
 STRIP = touch
@@ -160,13 +162,18 @@ install:
 uninstall:
 	rm -f /usr/local/bin/doctotext
 	rm -f /usr/local/bin/pd_extract_text
+	rm -f /usr/local/bin/extract_test
 	rm -f /usr/local/lib/libcharsetdetect.so
 	rm -f /usr/local/lib/libdoctotext.so
 	rm -f /usr/local/lib/libmimetic.so.0
 	rm -f /usr/local/lib/libwv2.so.1
 
 c_test:
-	gcc -o c_test c_test.c -ldoctotext
+	echo $(ARCH)
+	echo $(MAKE)
+	rm -f extract_test
+	gcc -g -o extract_test c_test.c -ldoctotext
+	cp extract_test /usr/local/bin/
 
 pd_extract:
 	rm -f pd_extract_text
@@ -177,7 +184,7 @@ clean:
 	rm -rf build
 	rm -f version.h
 	rm -rf doc/html
-	rm -f c_test
+	rm -f extract_test
 	rm -f pd_extract_text
 	$(MAKE) -C 3rdparty clean
 	$(MAKE) -C src clean

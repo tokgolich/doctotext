@@ -7,7 +7,7 @@ COMMON_OBJECTS = data_stream.o doc_parser.o entities.o exception.o list_style.o 
 OBJECTS = doctotext.o $(COMMON_OBJECTS)
 LIB_OBJECTS = doctotext_c_api.o $(COMMON_OBJECTS)
 ALL_OBJECTS = doctotext.o doctotext_c_api.o $(COMMON_OBJECTS)
-
+DEBUG = 0
 HEADERS = ../version.h data_stream.h doc_parser.h exception.h html_parser.h iwork_parser.h metadata.h oshared.h rtf_parser.h odf_ooxml_parser.h misc.h \
 	xml_fixer.h doctotext_unzip.h pdf_parser.h ppt_parser.h xls_parser.h xlsb_parser.h thread_safe_ole_storage.h thread_safe_ole_stream_reader.h txt_parser.h \
 	attachment.h eml_parser.h variant.h doctotext_c_api.h odfxml_parser.h xml_stream.h common_xml_document_parser.h

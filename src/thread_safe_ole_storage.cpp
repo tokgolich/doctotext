@@ -133,6 +133,11 @@ struct ThreadSafeOLEStorage::Implementation
 	{
 		if (m_data_stream)
 			delete m_data_stream;
+        for(std::vector<DirectoryEntry*>::iterator it  = m_directories.begin(); it != m_directories.end(); )
+        {
+            delete *(it);
+            m_directories.erase(it);
+        }
 	}
 
 	void getStreamPositions(std::vector<uint32_t>& stream_positions, bool mini_stream, DirectoryEntry* dir_entry)
@@ -260,6 +265,9 @@ struct ThreadSafeOLEStorage::Implementation
 			{
 				m_error = "Position of sector is outside of the file!";
 				m_is_valid_ole = false;
+                if (directory != NULL)
+                    delete directory;
+                directory = NULL;
 				return;
 			}
 			for (size_t i = 0; i < directory_count_per_sector; ++i)
@@ -274,6 +282,9 @@ struct ThreadSafeOLEStorage::Implementation
 					{
 						m_error = "Error in reading directory name";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					for (int j = 0; j < 32; ++j)
@@ -291,18 +302,29 @@ struct ThreadSafeOLEStorage::Implementation
 						directory->m_name += unichar_to_utf8(ch);
 					}
 					if (!skipBytes(2))
+					{
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
+					}
 					uint8_t object_type;
 					if (!m_data_stream->read(&object_type, sizeof(uint8_t), 1))
 					{
 						m_error = "Error in reading type of object";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					if (object_type != 0x00 && object_type != 0x01 && object_type != 0x02 && object_type != 0x05)
 					{
 						m_error = "Invalid type of object";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					directory->m_object_type = (DirectoryEntry::ObjectType)object_type;
@@ -311,12 +333,18 @@ struct ThreadSafeOLEStorage::Implementation
 					{
 						m_error = "Error in reading color flag";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					if (color_flag != 0x00 && color_flag != 0x01)
 					{
 						m_error = "Invalid color flag";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					directory->m_color_flag = color_flag;
@@ -324,32 +352,52 @@ struct ThreadSafeOLEStorage::Implementation
 					{
 						m_error = "Error in reading left sibling";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					if (!m_data_stream->read(&directory->m_right_sibling, sizeof(uint32_t), 1))
 					{
 						m_error = "Error in reading directory right sibling";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					if (!m_data_stream->read(&directory->m_child, sizeof(uint32_t), 1))
 					{
 						m_error = "Error in reading child";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					if (!skipBytes(36))
+					{
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
+					}
 					if (!m_data_stream->read(&directory->m_start_sector_location, sizeof(uint32_t), 1))
 					{
 						m_error = "Error in reading sector location";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					if (!m_data_stream->read(&directory->m_stream_size, sizeof(uint64_t), 1))
 					{
 						m_error = "Error in reading sector size";
 						m_is_valid_ole = false;
+                        if (directory != NULL)
+                            delete directory;
+                        directory = NULL;
 						return;
 					}
 					if (m_header_version == 0x03)
@@ -357,6 +405,7 @@ struct ThreadSafeOLEStorage::Implementation
 						directory->m_stream_size = directory->m_stream_size & 0x00000000FFFFFFFF;
 					}
 					m_directories.push_back(directory);
+                    directory = NULL;
 				}
 				catch (std::bad_alloc& ba)
 				{
@@ -370,6 +419,9 @@ struct ThreadSafeOLEStorage::Implementation
 			{
 				m_error = "Directory location is outside of the sector chain";
 				m_is_valid_ole = false;
+                if (directory != NULL)
+                    delete directory;
+                directory = NULL;
 				return;
 			}
 			directory_location = m_sectors_chain[directory_location];
@@ -378,10 +430,18 @@ struct ThreadSafeOLEStorage::Implementation
 		{
 			m_is_valid_ole = false;
 			m_error = "Root directory does not exist";
+            if (directory != NULL)
+                delete directory;
+            directory = NULL;
+            
 			return;
 		}
 		m_current_directory = m_directories[0];
 		m_data_stream->close();
+        
+        if (directory != NULL)
+            delete directory;
+        directory = NULL;
 	}
 
 	void getMiniFatSectorChain()
