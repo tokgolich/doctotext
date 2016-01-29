@@ -62,7 +62,7 @@ typedef struct DocToTextFormattingStyle DocToTextFormattingStyle;
  * Object is allocated in a C++ way (using operator new), that's why simple "free()" must not be used.
  * DocToTextFormattingStyle object is used to set formatting style that will be used by data extractor.
 **/
-DocToTextFormattingStyle* DOCTOTEXT_CALL doctotext_create_formatting_style();
+DocToTextFormattingStyle* DOCTOTEXT_CALL doctotext_create_formatting_style(void);
 
 /**
  * @brief Releases DocToTextFormattingStyle object. Remember not to use function free(). DocToTextFormattingStyle is
@@ -103,7 +103,7 @@ typedef struct DocToTextExtractorParams DocToTextExtractorParams;
  * DocToTextExtractorParams is allocated a in C++ way (using operator new), that's why simple "free()" must not be used.
  * @return Newly created object. Do not forget to delete it after you are done (using doctotext_free_extractor_params)
  */
-DocToTextExtractorParams* DOCTOTEXT_CALL doctotext_create_extractor_params();
+DocToTextExtractorParams* DOCTOTEXT_CALL doctotext_create_extractor_params(void);
 
 /**
  * @brief Releases data associated with extractor params object. Remember not to use function free(). DocToTextExtractorParams is

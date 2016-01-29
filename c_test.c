@@ -1,4 +1,4 @@
-#include <doctotext_c_api.h>
+#include <doctotext/doctotext_c_api.h>
 
 #include <stdlib.h>
 #include <stdio.h>

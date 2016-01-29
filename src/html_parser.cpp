@@ -237,6 +237,7 @@ class DocToTextSaxParser : public ParserSax
 
 		void createCharsetConverter()
 		{
+            m_log_stream << "Estimated encoding: " + m_charset + "\n";
 			if (!m_skip_decoding && m_converter == NULL && m_charset != "utf-8" && m_charset != "UTF-8")
 			{
 				try

@@ -6889,7 +6889,7 @@ struct PDFParser::Implementation
 			#ifdef WIN32
 			std::string cmap_to_cid_file_name = "resources\\" + font.m_font_encoding;
 			#else
-			std::string cmap_to_cid_file_name = "resources/" + font.m_font_encoding;
+			std::string cmap_to_cid_file_name = "/usr/local/share/resources/" + font.m_font_encoding;
 			#endif
 			bool next_cmap_exist = true;
 			PDFContent::CMap* current_cmap = &font.m_to_cid_cmap;
@@ -6969,7 +6969,7 @@ struct PDFParser::Implementation
 									#ifdef WIN32
 									cmap_to_cid_file_name = "resources\\" + last_name;
 									#else
-									cmap_to_cid_file_name = "resources/" + last_name;
+									cmap_to_cid_file_name = "/usr/local/share/resources/" + last_name;
 									#endif
 									next_cmap_exist = true;
 									break;
@@ -7043,7 +7043,7 @@ struct PDFParser::Implementation
 			#ifdef WIN32
 			FileStream file_stream("resources\\" + cid_to_unicode_cmap);
 			#else
-			FileStream file_stream("resources/" + cid_to_unicode_cmap);
+			FileStream file_stream("/usr/local/share/resources/" + cid_to_unicode_cmap);
 			#endif
 			if (!file_stream.open())
 				throw Exception("Cannot open file: " + cid_to_unicode_cmap);

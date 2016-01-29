@@ -156,11 +156,18 @@ std::string TXTParser::plainText()
 			}
 			else
 			{
-				encoding = "ASCII";
+				//encoding = "ASCII";
+				encoding = "gb18030";
 				if (impl->m_verbose_logging)
 					*impl->m_log_stream << "Could not detect encoding. Document is assumed to be encoded in ASCII\n";
 			}
 		}
+        
+        if(encoding == "KOI8-R" || encoding == "windows-1252")
+        {
+            encoding = "gb18030";
+        }
+        
 		if (encoding != "utf-8" && encoding != "UTF-8")
 		{
 			try

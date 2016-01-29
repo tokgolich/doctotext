@@ -1,3 +1,5 @@
+include ${BUILD_ROOT}/common/src/make/Makefile.inc
+
 ifneq (,$(filter $(ARCH),win32 win64))
 	ifeq ($(ARCH),win32)
 		STRIP = i686-w64-mingw32-strip
@@ -137,6 +139,7 @@ endif
 	cp -r doc/html doc/index.html build/doc
 	cp ChangeLog VERSION build
 	#$(MAKE) -C tests
+	make install
 
 version.h: VERSION
 	echo "#define VERSION \"`cat VERSION`\"" > version.h
@@ -152,40 +155,40 @@ doc/html: doc/Doxyfile src
 	cat Doxyfile | sed s/VERSION/`cat ../VERSION`/ | doxygen -
 
 install:
-	cp ./build/*.h /usr/local/include/
-	cp ./build/doctotext /usr/local/bin/
-	cp ./build/libcharsetdetect.so /usr/local/lib/
-	cp ./build/libdoctotext.so /usr/local/lib/
-	cp ./build/libmimetic.so.0 /usr/local/lib/
-	cp ./build/libwv2.so.1 /usr/local/lib/
+	cp ./build/*.h ${PECKER_THIRD_INC}/doctotext/
+	cp ./build/doctotext ${PRODUCT_HAWK_ROOT}/bin/
+	cp ./build/libcharsetdetect.so ${PRODUCT_HAWK_ROOT}/lib/libcharsetdetect.so
+	cp ./build/libdoctotext.so ${PRODUCT_HAWK_ROOT}/lib/libdoctotext.so
+	cp ./build/libmimetic.so.0 ${PRODUCT_HAWK_ROOT}/lib/libmimetic.so
+	cp ./build/libwv2.so.1 ${PRODUCT_HAWK_ROOT}/lib/libwv2.so
 
 uninstall:
-	rm -f /usr/local/bin/doctotext
-	rm -f /usr/local/bin/pd_extract_text
-	rm -f /usr/local/bin/extract_test
-	rm -f /usr/local/lib/libcharsetdetect.so
-	rm -f /usr/local/lib/libdoctotext.so
-	rm -f /usr/local/lib/libmimetic.so.0
-	rm -f /usr/local/lib/libwv2.so.1
+	rm -f ${PRODUCT_HAWK_ROOT}/bin/doctotext
+	rm -f ${PRODUCT_HAWK_ROOT}/bin/extract_text
+	rm -f ${PRODUCT_HAWK_ROOT}/bin/extract_test
+	rm -f ${PRODUCT_HAWK_ROOT}/lib/libcharsetdetect.so
+	rm -f ${PRODUCT_HAWK_ROOT}/lib/libdoctotext.so
+	rm -f ${PRODUCT_HAWK_ROOT}/lib/libmimetic.so
+	rm -f ${PRODUCT_HAWK_ROOT}/lib/libwv2.so
 
 c_test:
 	echo $(ARCH)
 	echo $(MAKE)
 	rm -f extract_test
-	gcc -g -o extract_test c_test.c -ldoctotext
-	cp extract_test /usr/local/bin/
+	gcc -g -o extract_test c_test.c -I${PECKER_THIRD_INC} -L${PECKER_THIRD_LIB} -L${PRODUCT_HAWK_ROOT}/lib -ldoctotext
+	cp extract_test ${PRODUCT_HAWK_ROOT}/bin/
 
-pd_extract:
-	rm -f pd_extract_text
-	gcc -O2 -g -o pd_extract_text pd_extract_text.c -ldoctotext
-	cp pd_extract_text /usr/local/bin/
+extract_text:
+	rm -f extract_text
+	gcc -O2 -g -o extract_text extract_text.c -I${PECKER_THIRD_INC} -L${PECKER_THIRD_LIB} -L${PRODUCT_HAWK_ROOT}/lib -ldoctotext
+	cp extract_text ${PRODUCT_HAWK_ROOT}/bin/
 
 clean:
 	rm -rf build
 	rm -f version.h
 	rm -rf doc/html
 	rm -f extract_test
-	rm -f pd_extract_text
+	rm -f extract_text
 	$(MAKE) -C 3rdparty clean
 	$(MAKE) -C src clean
 	#$(MAKE) -C tests clean

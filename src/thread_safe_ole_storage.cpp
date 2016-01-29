@@ -133,7 +133,7 @@ struct ThreadSafeOLEStorage::Implementation
 	{
 		if (m_data_stream)
 			delete m_data_stream;
-        for(std::vector<DirectoryEntry*>::iterator it  = m_directories.begin(); it != m_directories.end(); )
+        for(std::vector<DirectoryEntry*>::iterator it  = m_directories.begin(); it != m_directories.end(); it++)
         {
             delete *(it);
             m_directories.erase(it);
