@@ -1,7 +1,5 @@
-include ${BUILD_ROOT}/common/src/make/Makefile.inc
-
-CXXFLAGS = -O2 -I../3rdparty/wv2/include -I../3rdparty/unzip101e -I../3rdparty/htmlcxx/include -I${PECKER_THIRD_INC}
-LDFLAGS = ../3rdparty/unzip101e/ioapi.o ../3rdparty/unzip101e/unzip.o -L${PECKER_THIRD_LIB} -L${PRODUCT_HAWK_ROOT}/lib -lxml2
+CXXFLAGS = -O2 -I../3rdparty/wv2/include -I../3rdparty/unzip101e -I../3rdparty/htmlcxx/include -I/usr/include/libxml2/
+LDFLAGS = ../3rdparty/unzip101e/ioapi.o ../3rdparty/unzip101e/unzip.o
 
 COMMON_OBJECTS = data_stream.o doc_parser.o entities.o exception.o list_style.o rtf_parser.o odf_ooxml_parser.o html_parser.o iwork_parser.o metadata.o misc.o xml_fixer.o doctotext_unzip.o \
 	oshared.o pdf_parser.o plain_text_extractor.o ppt_parser.o xls_parser.o xlsb_parser.o thread_safe_ole_storage.o thread_safe_ole_stream_reader.o txt_parser.o \
@@ -101,4 +99,4 @@ $(ALL_OBJECTS): %.o: %.cpp $(HEADERS)
 	$(CXX) -c $< $(CXXFLAGS) 
 
 clean:
-	rm -f *.o doctotext doctotext.exe libdoctotext.so doctotext.dll libdoctotext.a
+	rm -f *.o doctotext doctotext.exe libdoctotext.{so,dylib} doctotext.dll libdoctotext.a
