@@ -69,7 +69,7 @@ endif
 	$(MAKE) -C src
 	rm -rf build
 	mkdir build
-	cp src/doctotext$(EXEEXT) build
+	#cp src/doctotext$(EXEEXT) build
 	cp src/$(SOPRE)doctotext$(SOEXT) build/
 ifeq ($(WIN),1)
 	cp 3rdparty/libiconv/bin/libiconv-2.dll build
@@ -155,15 +155,16 @@ doc/html: doc/Doxyfile src
 install:
 	mkdir -p /usr/local/include/doctotext/
 	cp ./build/*.h /usr/local/include/doctotext/
-	cp ./build/doctotext /usr/local/bin/
+	#cp ./build/doctotext /usr/local/bin/
 	cp ./build/libcharsetdetect.so /usr/local/lib/libcharsetdetect.so
 	cp ./build/libdoctotext.so /usr/local/lib/libdoctotext.so
 	cp ./build/libmimetic.so.0 /usr/local/lib/libmimetic.so
 	cp ./build/libwv2.so.1 /usr/local/lib/libwv2.so
+	ldconfig
 
 uninstall:
-	rm -f /usr/local/include/doctotext/
-	rm -f /usr/local/bin/doctotext
+	rm -rf /usr/local/include/doctotext/
+	#rm -f /usr/local/bin/doctotext
 	rm -f /usr/local/lib/libcharsetdetect.so*
 	rm -f /usr/local/lib/libdoctotext.so*
 	rm -f /usr/local/lib/libmimetic.so*

@@ -85,7 +85,7 @@ COMMON_OBJECTS += tracing.o
 STRIP = touch
 endif
 
-all: doctotext$(EXEEXT) $(SOPRE)doctotext$(SOEXT)
+all: $(SOPRE)doctotext$(SOEXT)
 
 doctotext$(EXEEXT): $(OBJECTS)
 	$(CXX) -o doctotext$(EXEEXT) $(OBJECTS) $(LDFLAGS)
